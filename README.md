@@ -36,7 +36,7 @@ Development has slowed, and mostly happens on the my days off.
 #### Special Thanks!
 
 
-* Devi Ltti for hit zone.dat list and fixes to Vultures collision mesh extraction tool.
+* Devi Ltti for his zone.dat list and fixes to Vultures collision mesh extraction tool.
 
 * Vulture for his collision mesh extraction tool.
 
@@ -45,9 +45,6 @@ Development has slowed, and mostly happens on the my days off.
 * Atom0s and EliteMMO for producing the current memory reading api this program could not operate without. 
 
 * The DarkStar project for providing invaluable insight into the underlying workings of the game. 
-
-
-
 	
 	
 #### Path Test To Points Of Interest Tab
