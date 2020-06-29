@@ -26,7 +26,7 @@ Here you can dump the zone collision data to an obj file,
  # this zone dat list is provided by Devi Ltti (Thanks Devi) and converted to xml by me.
  
  *2 you can Select a zone to dump or click dump all map dats.
- # you will notice some zones are commented out in the zonelist.xml file, this is because you can not dump them with pathfinder.exe.
+ you will notice some zones are commented out in the zonelist.xml file, this is because you can not dump them with pathfinder.exe.
 If i can't export the zone.dat using pathfinder.exe then i use Noesis to export the zone to obj file. To export maps so they are compatible with FFXINAV.dll please use the following settings.
 
 Output type = obj.
@@ -47,4 +47,57 @@ here you can build navmeshes using FFXINAV.dll
 
 the settings you see are the default settings i have dumped all the zones for. 
 some zones you may need to change MaxClimb, for example zone 271 maxclimb is 0.3
+
+
+# Q & A from discord
+
+    Q: Using Pathfinder.exe how do export a navmesh from FFXINAV.dll?.
+    
+    A: Pathfinder.exe -> Navmesh tab -> click select a obj file to build and dump a navmesh, or
+       Pathfinder.exe - > Navmesh tab -> click dump all zone.obj file navmeshes --- this is buggy and will crash, if it does just restart it.
+       
+       
+    Q: How do I edit the navmesh that was built with FFXINAV.dll in RecastDemo.exe?.
+    
+    A: 1. Place the zone.obj file in  RecastDemo/Meshes/
+       2. Place the navmesh.nav in the same folder as RecastDemo.exe "RecastDemo"
+       3. Rename "navmesh.nav" to "all_tiles_navmesh.bin"
+       4. open RecastDemo.exe-> on the right hand side click -> choose sample -> Tile Mesh
+          Input Mesh -> select the .obj file you want to edit.
+       5. once the .obj is loaded on screen -> scroll down and click load. you will see the mesh load on screen as "blue"
+       6. to remove tiles, on the left hand side click "Create Tiles" then on the mesh click Shift+ left mouse button.
+       7. to rebuild the tile click on the part of the mesh with left mouse button.
+       8. you can create off-mesh links with the tool on the left hand side. 
+       9. when you are finished click save from the tool menu on the right hand side.
+       10.It will save as "all_tiles_navmesh.bin" you will need to rename this to "ZoneName.nav".   
+       
+    Q: I am unable to load my zone.obj with FFXINAV.dll or RecastDemo.exe to build a mesh, what can I do?.
+    
+    A: I have no idea. you can see if the DSP was able to build a navmesh and try and use theres. 
+      the only problem with DSP navmeshes is there is no object data on the meshes, rocks,trees etc.   
+      
+   Q: Pathfinder.exe wont load up or it loads up but only says refresh?.
+   
+   A: You need to be logged into FFXI with ashita or windower
+      Right click Pathfinder.exe and run as Admin. 
+      also you need to be logged into ffxi for it to work.
+      Wiccaan made a System checker to see of your machine is missing any required files typically
+      needed to run applications that use EliteMMO.api. you can download hit system checker here.
+      
+      http://www.elitemmonetwork.com/forums/download/file.php?id=66
+      
+      
+   Q: In pathfinder when I click load zones -> select zonelist.xml, nothing happens or I get an error?. 
+   
+   A: you may need to edit zonelist.xml and change the path to where you have final fantasy xi installed.
+
+Zonelist.xml is a custom XML I made to get the location of all the zone.dats using the list provided by Devi Ltti, you will see some are commented out, this is because I have been unable to export that zone to obj file. Or build a navmesh with the exported obj.
+
+   Q: How do i deal with doors? the navmesh wont go past them?.
+   
+   A: if this happens, you can open the obj file in blender and delete the door, or you can open the obj and navmesh in recastdemo and add an offmesh connection.
+
+
+       
+
 
