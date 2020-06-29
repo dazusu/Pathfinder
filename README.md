@@ -40,9 +40,7 @@ Development has slowed, and mostly happens on the my days off.
 
 * Vulture for his collision mesh extraction tool.
 
-* The FFEVO Team for producing the previous memory reading api this program could not operate without.
-
-* Atom0s and EliteMMO for producing the current memory reading api this program could not operate without. 
+* Atom0s and EliteMMO for producing the current memory reading api.
 
 * The DarkStar project for providing invaluable insight into the underlying workings of the game. 
 	
