@@ -41,7 +41,7 @@ to pathfind with meshes made with the files from noesis using FFXINAV.dll you ne
 # FindPath(start,end,True).
 
 
-#NavMesh Tab
+# NavMesh Tab
 
 here you can build navmeshes using FFXINAV.dll
 
