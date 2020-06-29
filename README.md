@@ -24,7 +24,7 @@ Development has slowed, and mostly happens on the my days off.
 
 #### Requirements
 * Ashita
-* [Microsoft .NET Framework 4.5](https://www.microsoft.com/en-US/Download/details.aspx?id=30653)
+* [Microsoft .NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48)
 * Visual C++ Redistributable Packages for Visual Studio 2013  
 * Visual C++ Redistributable Packages for Visual Studio 2015  
 
