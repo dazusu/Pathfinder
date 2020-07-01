@@ -185,7 +185,7 @@ namespace PathFinder.Characters
         public void GoTo(float x, float z)
         {
             var position = new position_t { X = x, Z = z };
-            if (!(DistanceTo(position) > 1.5)) return;
+            if (!(DistanceTo(position) > 1)) return;
             MoveForwardTowardsPosition(position, true);
         }
 
@@ -323,25 +323,25 @@ namespace PathFinder.Characters
         public void MoveForwardTowardsPosition(
                                 position_t TargetPosition, bool useObjectAvoidance)
         {
-            if (DistanceTo(TargetPosition) > 1.5)
+            if (DistanceTo(TargetPosition) > 1)
             {
-               // var player = Character.Api.Player;
+              //  var player = Character.Api.Player;
               //  var i = DistanceTo(TargetPosition);
                 SetViewMode(ViewMode.FirstPerson);
                 FaceHeading(TargetPosition);
                   KeepRunningWithKeyboard();
-            //    Character.Api.AutoFollow.SetAutoFollowCoords(
-              //   TargetPosition.X - player.X,
-               //  TargetPosition.Y - player.Y,
-               //   TargetPosition.Z - player.Z);
+              // Character.Api.AutoFollow.SetAutoFollowCoords(
+             //   TargetPosition.X - player.X,
+             //   TargetPosition.Y - player.Y,
+             //    TargetPosition.Z - player.Z);
 
-             //   Character.Api.AutoFollow.IsAutoFollowing = true;
+              //  Character.Api.AutoFollow.IsAutoFollowing = true;
 
               //  if (useObjectAvoidance) AvoidObstacles();
             }
-         //   if (DistanceTo(TargetPosition) < 1.5)
+           // if (DistanceTo(TargetPosition) < 1)
           //  {
-          //      Character.Api.AutoFollow.IsAutoFollowing = false;
+              //  Character.Api.AutoFollow.IsAutoFollowing = false;
          //   }
         }
 

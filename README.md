@@ -60,7 +60,8 @@ this test app using the kb to move in ffxi, for better results you might want to
 Here you can dump the zone collision data to an obj file,
 
 * Click Load Zones  
- # this zone dat list is provided by Devi Ltti (Thanks Devi) and converted to xml by me.
+
+this zone dat list is provided by Devi Ltti (Thanks Devi) and converted to xml by me.
  
 * you can Select a zone to dump or click dump all map dats.
  you will notice some zones are commented out in the zonelist.xml file, this is because you can not dump them with pathfinder.exe.

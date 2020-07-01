@@ -267,5 +267,25 @@ namespace PathFinder
                 return result;
             }
         }
+
+        private void onTopToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (onTopToolStripMenuItem.CheckState == System.Windows.Forms.CheckState.Checked)
+            {
+                MainForm.ActiveForm.TopMost = true;
+            }
+            else
+                MainForm.ActiveForm.TopMost = false;
+        }
+
+        private void transparentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (transparentToolStripMenuItem.CheckState == System.Windows.Forms.CheckState.Checked)
+            {
+                MainForm.ActiveForm.Opacity = 0.50;
+            }
+            else
+                MainForm.ActiveForm.Opacity = 1;
+        }
     }
 }

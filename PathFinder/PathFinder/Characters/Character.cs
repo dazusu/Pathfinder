@@ -154,9 +154,9 @@ namespace PathFinder.Characters
                         string str = zn.path.Replace(@"\", @"/");
                         if (zn.name != "NILL" && zn.path != "NILL" && !File.Exists(string.Format(@"Map Collision obj\{0}.obj", zn.name)))
                         {
-                            Filename = zn.name;
+                            Filename = zn.id.ToString();
                             dat = null;
-                            dat = new DAT(this, zn.name);
+                            dat = new DAT(this, zn.id.ToString());
                             String[] foos = new String[] { str };
                             dat.Load(foos);
                         }

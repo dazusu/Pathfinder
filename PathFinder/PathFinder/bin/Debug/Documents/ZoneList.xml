@@ -1,301 +1,303 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfZones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Zones ID="0" Name="unknown" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM\1\20.DAT" />
-   <Zones ID="1" Name="Phanauet Channel" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3\0\0.DAT" />  
-  <Zones ID="2" Name="Carpenters' Landing" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/1.DAT" />
-  <Zones ID="3" Name="Manaclipper" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/2.DAT" /> 
-  <Zones ID="4" Name="Bibiki Bay" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/3.DAT" />
-  <Zones ID="5" Name="Uleguerand Range" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/4.DAT" />
-  <Zones ID="6" Name="Bearclaw Pinnacle" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/5.DAT" />
-  <Zones ID="7" Name="Attohwa Chasm" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/6.DAT" />
-  <Zones ID="8" Name="Boneyard Gully" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/7.DAT" />
-  <Zones ID="9" Name="Pso'Xja" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/8.DAT" />
-  <Zones ID="10" Name="The Shrouded Maw" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/9.DAT" />
-  <Zones ID="11" Name="Oldton Movalpolos" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/10.DAT" />
-  <Zones ID="12" Name="Newton Movalpolos" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/11.DAT" />
-  <Zones ID="13" Name="Mine Shaft #2716" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/12.DAT" />
-  <Zones ID="14" Name="Hall of Transference" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/13.DAT" />
-  <Zones ID="15" Name="Abyssea - Konschtat" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/240/106.DAT" />
-  <Zones ID="16" Name="Promyvion - Holla" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/15.DAT" />
-  <Zones ID="17" Name="Spire of Holla" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/16.DAT" />
-  <Zones ID="18" Name="Promyvion - Dem" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/17.DAT" />
-  <Zones ID="19" Name="Spire of Dem" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/18.DAT" />
-  <Zones ID="20" Name="Promyvion - Mea" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/19.DAT" />
-  <Zones ID="21" Name="Spire of Mea" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/20.DAT" />
-  <Zones ID="22" Name="Promyvion - Vahzl" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/21.DAT" />
-  <Zones ID="23" Name="Spire of Vahzl" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/22.DAT" />
-  <Zones ID="24" Name="Lufaise Meadows" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/23.DAT" />
-  <Zones ID="25" Name="Misareaux Coast" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/24.DAT" />
-  <Zones ID="26" Name="Tavnazian Safehold" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/25.DAT" />
-  <Zones ID="27" Name="Phomiuna Aqueducts" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/26.DAT" />
-  <Zones ID="28" Name="Sacrarium" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/27.DAT" />
-  <Zones ID="29" Name="Riverne - Site #B01" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/28.DAT" />
-  <Zones ID="30" Name="Riverne - Site #A01" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/29.DAT" />
-  <Zones ID="31" Name="Monarch Linn" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/30.DAT" />
-  <Zones ID="32" Name="Sealion's Den" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/31.DAT" />
-  <Zones ID="33" Name="Al'Taieu" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/32.DAT" />
-  <Zones ID="34" Name="Grand Palace of Hu'Xzoi" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/33.DAT" />
-  <Zones ID="35" Name="The Garden of Ru'Hmet" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/34.DAT" />
-  <Zones ID="36" Name="Empyreal Paradox" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/0/35.DAT" />
-  <Zones ID="37" Name="Temenos" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/3/82.DAT" />
-  <Zones ID="38" Name="Apollyon" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/5/1.DAT" />
-  <Zones ID="39" Name="Dynamis - Valkurm" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/5/2.DAT" />
-  <Zones ID="40" Name="Dynamis - Buburimu" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/5/3.DAT" />
-  <Zones ID="41" Name="Dynamis - Qufim" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/5/4.DAT" />
-  <Zones ID="42" Name="Dynamis - Tavnazia" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/5/5.DAT" />
-  <Zones ID="43" Name="Diorama Abdhaljs-Ghelsba" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/5/6.DAT" />
-   <Zones ID="44" Name="Abdhaljs Isle-Purgonorgo" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM3/5/7.DAT" />
-  <Zones ID="45" Name="Abyssea - Tahrongi" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/240/107.DAT" />
-  <Zones ID="46" Name="Open sea route to Al Zahbi" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/0.DAT" />
-   <Zones ID="47" Name="Open sea route to Mhaura" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/1.DAT" /> 
-  <Zones ID="48" Name="Al Zahbi" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/2.DAT" />
-  <Zones ID="49" Name="none" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/40.DAT" />
-  <Zones ID="50" Name="Aht Urhgan Whitegate" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/3.DAT" />
-  <Zones ID="51" Name="Wajaom Woodlands" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/1/99.DAT" />
-  <Zones ID="52" Name="Bhaflau Thickets" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/7/55.DAT" />
-  <Zones ID="53" Name="Nashmau" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/6.DAT" />
-  <Zones ID="54" Name="Arrapago Reef" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/7.DAT" />
-  <Zones ID="55" Name="Ilrusi Atoll" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/8.DAT" />
-  <Zones ID="56" Name="Periqia" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/9.DAT" />
-  <Zones ID="57" Name="Talacca Cove" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/10.DAT" />
-   <Zones ID="58" Name="Silver Sea route to Nashmau" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/11.DAT" />
-  <Zones ID="59" Name="Silver Sea route to Al Zahbi" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/12.DAT" /> 
- <Zones ID="60" Name="The Ashu Talif" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/13.DAT" />
-  <Zones ID="61" Name="Mount Zhayolm" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/14.DAT" />
-  <Zones ID="62" Name="Halvung" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/15.DAT" />
-  <Zones ID="63" Name="Lebros Cavern" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/16.DAT" />
-  <Zones ID="64" Name="Navukgo Execution Chamber" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/17.DAT" />
-  <Zones ID="65" Name="Mamook" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/18.DAT" />
-  <Zones ID="66" Name="Mamool Ja Training Grounds" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/19.DAT" />
-  <Zones ID="67" Name="Jade Sepulcher" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/20.DAT" />
-  <Zones ID="68" Name="Aydeewa Subterrane" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/21.DAT" />
-  <Zones ID="69" Name="Leujaoam Sanctum" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/22.DAT" />
-  <Zones ID="70" Name="Chocobo Circuit" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/5/106.DAT" />
-  <Zones ID="71" Name="The Colosseum" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/24.DAT" />
-  <Zones ID="72" Name="Alzadaal Undersea Ruins" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/25.DAT" />
-  <Zones ID="73" Name="Zhayolm Remnants" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/26.DAT" />
-  <Zones ID="74" Name="Arrapago Remnants" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/27.DAT" />
-  <Zones ID="75" Name="Bhaflau Remnants" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/28.DAT" />
-  <Zones ID="76" Name="Silver Sea Remnants" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/29.DAT" />
-  <Zones ID="77" Name="Nyzul Isle" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/30.DAT" />
-  <Zones ID="78" Name="Hazhalm Testing Grounds" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/31.DAT" />
-  <Zones ID="79" Name="Caedarva Mire" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/32.DAT" />
-  <Zones ID="80" Name="Southern San d'Oria [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/0.DAT" />
-  <Zones ID="81" Name="East Ronfaure [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/1.DAT" />
-  <Zones ID="82" Name="Jugner Forest [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/2.DAT" />
-  <Zones ID="83" Name="Vunkerl Inlet [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/3.DAT" />
-  <Zones ID="84" Name="Batallia Downs [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/4.DAT" />
-  <Zones ID="85" Name="La Vaule [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/5.DAT" />
-  <Zones ID="86" Name="Everbloom Hollow" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/6.DAT" />
-  <Zones ID="87" Name="Bastok Markets [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/7.DAT" />
-  <Zones ID="88" Name="North Gustaberg [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/8.DAT" />
-  <Zones ID="89" Name="Grauberg [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/9.DAT" />
-  <Zones ID="90" Name="Pashhow Marshlands [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/10.DAT" />
-  <Zones ID="91" Name="Rolanberry Fields [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/11.DAT" />
-  <Zones ID="92" Name="Beadeaux [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/12.DAT" />
-  <Zones ID="93" Name="Ruhotz Silvermines" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/13.DAT" />
-  <Zones ID="94" Name="Windurst Waters [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/14.DAT" />
-  <Zones ID="95" Name="West Sarutabaruta [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/15.DAT" />
-  <Zones ID="96" Name="Fort Karugo-Narugo [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/16.DAT" />
-  <Zones ID="97" Name="Meriphataud Mountains [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/17.DAT" />
-  <Zones ID="98" Name="Sauromugue Champaign [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/18.DAT" />
-  <Zones ID="99" Name="Castle Oztroja [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/19.DAT" />
-  <Zones ID="100" Name="West Ronfaure" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/120.DAT" />
-  <Zones ID="101" Name="East Ronfaure" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/121.DAT" />
-  <Zones ID="102" Name="La Theine Plateau" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/115.DAT" />
-  <Zones ID="103" Name="Valkurm Dunes" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/102.DAT" />
-  <Zones ID="104" Name="Jugner Forest" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/114.DAT" />
-  <Zones ID="105" Name="Batallia Downs" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/122.DAT" />
-  <Zones ID="106" Name="North Gustaberg" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/123.DAT" />
-  <Zones ID="107" Name="South Gustaberg" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/124.DAT" />
-  <Zones ID="108" Name="Konschtat Highlands" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/90.DAT" />
-  <Zones ID="109" Name="Pashhow Marshlands" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/125.DAT" />
-  <Zones ID="110" Name="Rolanberry Fields" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/126.DAT" />
-  <Zones ID="111" Name="Beaucedine Glacier" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/72.DAT" />
-  <Zones ID="112" Name="Xarcabard" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/57.DAT" />
-  <Zones ID="113" Name="Cape Teriggan" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/0.DAT" />
-  <Zones ID="114" Name="Eastern Altepa Desert" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/1.DAT" />
-  <Zones ID="115" Name="West Sarutabaruta" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/127.DAT" />
-  <Zones ID="116" Name="East Sarutabaruta" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/0.DAT" />
-  <Zones ID="117" Name="Tahrongi Canyon" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/1.DAT" />
-  <Zones ID="118" Name="Buburimu Peninsula" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/71.DAT" />
-  <Zones ID="119" Name="Meriphataud Mountains" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/101.DAT" />
-  <Zones ID="120" Name="Sauromugue Champaign" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/2.DAT" />
-  <Zones ID="121" Name="The Sanctuary of Zi'Tah" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/2.DAT" />
-  <Zones ID="122" Name="Ro'Maeve" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/3.DAT" />
-  <Zones ID="123" Name="Yuhtunga Jungle" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/4.DAT" />
-  <Zones ID="124" Name="Yhoator Jungle" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/5.DAT" />
-  <Zones ID="125" Name="Western Altepa Desert" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/6.DAT" />
-  <Zones ID="126" Name="Qufim Island" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/58.DAT" />
-  <Zones ID="127" Name="Behemoth's Dominion" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/3.DAT" />
-  <Zones ID="128" Name="Valley of Sorrows" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/7.DAT" />
-  <Zones ID="129" Name="Ghoyu's Reverie" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/20.DAT" />
-  <Zones ID="130" Name="Ru'Aun Gardens" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/107.DAT" />
-  <Zones ID="131" Name="Mordion Gaol" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/4.DAT" />
-  <Zones ID="132" Name="Abyssea - La Theine" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/240/108.DAT" />
-  <Zones ID="133" Name="Lobby" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/5.DAT" />
-  <Zones ID="134" Name="Dynamis - Beaucedine" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/108.DAT" />
-  <Zones ID="135" Name="Dynamis - Xarcabard" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/109.DAT" />
-  <Zones ID="136" Name="Beaucedine Glacier [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/21.DAT" />
-  <Zones ID="137" Name="Xarcabard [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/22.DAT" />
-  <Zones ID="138" Name="Castle Zvahl Baileys [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/23.DAT" />
-  <Zones ID="139" Name="Horlais Peak" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/6.DAT" />
-  <Zones ID="140" Name="Ghelsba Outpost" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/95.DAT" />
-  <Zones ID="141" Name="Fort Ghelsba" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/7.DAT" />
-<Zones ID="142" Name="Yughott Grotto" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/8.DAT" />
-  <Zones ID="143" Name="Palborough Mines" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/88.DAT" />
-  <Zones ID="144" Name="Waughroon Shrine" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/89.DAT" />
-  <Zones ID="145" Name="Giddeus" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/104.DAT" />
-  <Zones ID="146" Name="Balga's Dais" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/105.DAT" />
-  <Zones ID="147" Name="Beadeaux" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/61.DAT" />
-  <Zones ID="148" Name="Qulun Dome" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/62.DAT" />
-  <Zones ID="149" Name="Davoi" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/99.DAT" />
-  <Zones ID="150" Name="Monastic Cavern" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/100.DAT" />
-  <Zones ID="151" Name="Castle Oztroja" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/63.DAT" />
-  <Zones ID="152" Name="Altar Room" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/64.DAT" />
-  <Zones ID="153" Name="The Boyahda Tree" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/8.DAT" />
-  <Zones ID="154" Name="Dragon's Aery" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/9.DAT" />
-  <Zones ID="155" Name="Castle Zvahl Keep [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/24.DAT" />
-  <Zones ID="156" Name="Throne Room [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/25.DAT" />
-  <Zones ID="157" Name="Middle Delkfutt's Tower" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/56.DAT" />
-  <Zones ID="158" Name="Upper Delkfutt's Tower" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/9.DAT" />
-  <Zones ID="159" Name="Temple of Uggalepih" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/10.DAT" />
-  <Zones ID="160" Name="Den of Rancor" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/110.DAT" />
-  <Zones ID="161" Name="Castle Zvahl Baileys" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/60.DAT" />
-  <Zones ID="162" Name="Castle Zvahl Keep" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/73.DAT" />
-  <Zones ID="163" Name="Sacrificial Chamber" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/111.DAT" />
-  <Zones ID="164" Name="Garlaige Citadel [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/26.DAT" />
-  <Zones ID="165" Name="Throne Room" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/74.DAT" />
-  <Zones ID="166" Name="Ranguemont Pass" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/10.DAT" />
-  <Zones ID="167" Name="Bostaunieux Oubliette" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/108.DAT" />
-  <Zones ID="168" Name="Chamber of Oracles" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/11.DAT" />
-  <Zones ID="169" Name="Toraimarai Canal" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/65.DAT" />
-  <Zones ID="170" Name="Full Moon Fountain" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/12.DAT" />
-  <Zones ID="171" Name="Crawlers' Nest [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/27.DAT" />
-  <Zones ID="172" Name="Zeruhn Mines" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/11.DAT" />
-  <Zones ID="173" Name="Korroloka Tunnel" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/13.DAT" />
-  <Zones ID="174" Name="Kuftal Tunnel" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/14.DAT" />
-  <Zones ID="175" Name="The Eldieme Necropolis [S]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/28.DAT" />
-  <Zones ID="176" Name="Sea Serpent Grotto" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/15.DAT" />
-  <Zones ID="177" Name="Ve'Lugannon Palace" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/112.DAT" />
-  <Zones ID="178" Name="The Shrine of Ru'Avitau" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/113.DAT" />
-  <Zones ID="179" Name="Stellar Fulcrum" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/16.DAT" />
-  <Zones ID="180" Name="La'Loff Amphitheater" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/114.DAT" />
-  <Zones ID="181" Name="The Celestial Nexus" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/115.DAT" />
-  <Zones ID="182" Name="Walk of Echoes" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/29.DAT" />
-  <Zones ID="183" Name="Maquette Abdhaljs-Legion" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/12.DAT" />
-  <Zones ID="184" Name="Lower Delkfutt's Tower" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/13.DAT" />
-  <Zones ID="185" Name="Dynamis - San d'Oria" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/116.DAT" />
-  <Zones ID="186" Name="Dynamis - Bastok" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/117.DAT" />
-  <Zones ID="187" Name="Dynamis - Windurst" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/118.DAT" />
-  <Zones ID="188" Name="Dynamis - Jeuno" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/119.DAT" />
-  <Zones ID="189" Name="NILL" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/30.DAT" />
-  <Zones ID="190" Name="King Ranperre's Tomb" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/14.DAT" />
-  <Zones ID="191" Name="Dangruf Wadi" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/52.DAT" />
-  <Zones ID="192" Name="Inner Horutoto Ruins" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/112.DAT" />
-  <Zones ID="193" Name="Ordelle's Caves" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/92.DAT" />
-  <Zones ID="194" Name="Outer Horutoto Ruins" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/15.DAT" />
-  <Zones ID="195" Name="The Eldieme Necropolis" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/77.DAT" />
-  <Zones ID="196" Name="Gusgen Mines" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/16.DAT" />
-  <Zones ID="197" Name="Crawlers' Nest" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/76.DAT" />
-  <Zones ID="198" Name="Maze of Shakhrami" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/75.DAT" />
-  <Zones ID="199" Name="NILL" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/31.DAT" />
-  <Zones ID="200" Name="Garlaige Citadel" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/17.DAT" />
-  <Zones ID="201" Name="Cloister of Gales" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/17.DAT" />
-  <Zones ID="202" Name="Cloister of Storms" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/18.DAT" />
-  <Zones ID="203" Name="Cloister of Frost" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/19.DAT" />
-  <Zones ID="204" Name="Fei'Yin" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/18.DAT" />
-  <Zones ID="205" Name="Ifrit's Cauldron" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/20.DAT" />
-  <Zones ID="206" Name="Qu'Bia Arena" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/19.DAT" />
-  <Zones ID="207" Name="Cloister of Flames" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/21.DAT" />
-  <Zones ID="208" Name="Quicksand Caves" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/120.DAT" />
-  <Zones ID="209" Name="Cloister of Tremors" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/22.DAT" />
-  <Zones ID="210" Name="NILL" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/40.DAT" />
-  <Zones ID="211" Name="Cloister of Tides" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/23.DAT" />
-  <Zones ID="212" Name="Gustav Tunnel" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/121.DAT" />
-  <Zones ID="213" Name="Labyrinth of Onzozo" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/122.DAT" />
-  <Zones ID="214" Name="NILL" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM4/0/33.DAT" />
-  <Zones ID="215" Name="Abyssea - Attohwa" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/254/7.DAT" />
-  <Zones ID="216" Name="Abyssea - Misareaux" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/254/8.DAT" />
-  <Zones ID="217" Name="Abyssea - Vunkerl" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/254/9.DAT" />
-  <Zones ID="218" Name="Abyssea - Altepa" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/258/110.DAT" />
-  <Zones ID="219" Name="NILL" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM5/0/32.DAT" />
-   <Zones ID="220" Name="Ship bound for Selbina" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/24.DAT" /> 
-  <Zones ID="221" Name="Ship bound for Mhaura" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/25.DAT" /> 
-  <Zones ID="222" Name="Provenance" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/280/2.DAT" />
-   <Zones ID="223" Name="San d'Oria-Jeuno Airship" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/26.DAT" />
-  <Zones ID="224" Name="Bastok-Jeuno Airship" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/27.DAT" />
-  <Zones ID="225" Name="Windurst-Jeuno Airship" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/28.DAT" />
-  <Zones ID="226" Name="Kazham-Jeuno Airship" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/24.DAT" />
-  <Zones ID="227" Name="Ship bound for Selbina" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/29.DAT" />
-  <Zones ID="228" Name="Ship bound for Mhaura" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/30.DAT" /> 
-  <Zones ID="229" Name="NILL" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/119.DAT" />
-  <Zones ID="230" Name="Southern San d'Oria" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/31.DAT" />
-  <Zones ID="231" Name="Northern San d'Oria" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/32.DAT" />
-  <Zones ID="232" Name="Port San d'Oria" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/113.DAT" />
-  <Zones ID="233" Name="Chateau d'Oraguille" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/33.DAT" />
-  <Zones ID="234" Name="Bastok Mines" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/34.DAT" />
-  <Zones ID="235" Name="Bastok Markets" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/35.DAT" />
-  <Zones ID="236" Name="Port Bastok" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/36.DAT" />
-  <Zones ID="237" Name="Metalworks" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/37.DAT" />
-  <Zones ID="238" Name="Windurst Waters" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/78.DAT" />
-  <Zones ID="239" Name="Windurst Walls" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/79.DAT" />
-  <Zones ID="240" Name="Port Windurst" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/80.DAT" />
-  <Zones ID="241" Name="Windurst Woods" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/0/81.DAT" />
-  <Zones ID="242" Name="Heavens Tower" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/38.DAT" />
-  <Zones ID="243" Name="Ru'Lude Gardens" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/39.DAT" />
-  <Zones ID="244" Name="Upper Jeuno" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/40.DAT" />
-  <Zones ID="245" Name="Lower Jeuno" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/41.DAT" />
-  <Zones ID="246" Name="Port Jeuno" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/42.DAT" />
-  <Zones ID="247" Name="Rabao" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/12/123.DAT" />
-  <Zones ID="248" Name="Selbina" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/43.DAT" />
-  <Zones ID="249" Name="Mhaura" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/1/44.DAT" />
-  <Zones ID="250" Name="Kazham" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/25.DAT" />
-  <Zones ID="251" Name="Hall of the Gods" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/21/114.DAT" />
-  <Zones ID="252" Name="Norg" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM2/0/27.DAT" />
-  <Zones ID="253" Name="Abyssea - Uleguerand" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/258/111.DAT" />
-  <Zones ID="254" Name="Abyssea - Grauberg" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/258/112.DAT" />
-  <Zones ID="255" Name="Abyssea - Empyreal Paradox" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/258/113.DAT" />
-  <Zones ID="256" Name="Western Adoulin" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/3.DAT" />
-  <Zones ID="257" Name="Eastern Adoulin" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/4.DAT" />
-  <Zones ID="258" Name="Rala Waterways" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/5.DAT" />
-  <Zones ID="259" Name="Rala Waterways [U]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/6.DAT" />
-  <Zones ID="260" Name="Yahse Hunting Grounds" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/7.DAT" />
-  <Zones ID="261" Name="Ceizak Battlegrounds" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/8.DAT" />
-  <Zones ID="262" Name="Foret de Hennetiel" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/9.DAT" />
-  <Zones ID="263" Name="Yorcia Weald" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/10.DAT" />
-  <Zones ID="264" Name="Yorcia Weald [U]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/11.DAT" />
-  <Zones ID="265" Name="Morimar Basalt Fields" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/12.DAT" />
-  <Zones ID="266" Name="Marjami Ravine" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/13.DAT" />
-  <Zones ID="267" Name="Kamihr Drifts" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/14.DAT" />
-  <Zones ID="268" Name="Sih Gates" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/15.DAT" />
-  <Zones ID="269" Name="Moh Gates" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/16.DAT" />
-  <Zones ID="270" Name="Cirdas Caverns" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/17.DAT" />
-  <Zones ID="271" Name="Cirdas Caverns [U]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/18.DAT" />
-  <Zones ID="272" Name="Dho Gates" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/19.DAT" />
-  <Zones ID="273" Name="Woh Gates" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/20.DAT" />
-  <Zones ID="274" Name="Outer Ra'Kaznar" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/21.DAT" />
-  <Zones ID="275" Name="Outer Ra'Kaznar [U]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/22.DAT" />
-  <Zones ID="276" Name="Ra'Kaznar Inner Court" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/23.DAT" />
-  <Zones ID="277" Name="Ra'Kaznar Turris" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/24.DAT" />
-  <Zones ID="278" Name="NILL" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/25.DAT" />
-  <Zones ID="279" Name="NILL" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/0/26.DAT" />
-  <Zones ID="280" Name="Mog Garden" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/309/10.DAT" />
-  <Zones ID="281" Name="Leafallia" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM9/8/10.DAT" />
-  <Zones ID="282" Name="Mount Kamihr" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/315/102.DAT" />
+<!--Special thanks to Devi Ltti for providing the zone dat locations. -->
+  <Zones ID="0" Name="unknown" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/20.DAT" />
+  <!-- <Zones ID="1" Name="Phanauet Channel" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/0.DAT" />  --> 
+  <Zones ID="2" Name="Carpenters' Landing" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/1.DAT" />
+<!--   <Zones ID="3" Name="Manaclipper" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/2.DAT" /> -->
+  <Zones ID="4" Name="Bibiki Bay" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/3.DAT" />
+  <Zones ID="5" Name="Uleguerand Range" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/4.DAT" />
+  <Zones ID="6" Name="Bearclaw Pinnacle" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/5.DAT" />
+  <Zones ID="7" Name="Attohwa Chasm" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/6.DAT" />
+  <Zones ID="8" Name="Boneyard Gully" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/7.DAT" />
+  <Zones ID="9" Name="Pso'Xja" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/8.DAT" />
+  <Zones ID="10" Name="The Shrouded Maw" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/9.DAT" />
+  <Zones ID="11" Name="Oldton Movalpolos" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/10.DAT" />
+  <Zones ID="12" Name="Newton Movalpolos" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/11.DAT" />
+  <Zones ID="13" Name="Mine Shaft #2716" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/12.DAT" />
+  <Zones ID="14" Name="Hall of Transference" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/13.DAT" />
+  <Zones ID="15" Name="Abyssea - Konschtat" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/240/106.DAT" />
+  <Zones ID="16" Name="Promyvion - Holla" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/15.DAT" />
+  <Zones ID="17" Name="Spire of Holla" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/16.DAT" />
+  <Zones ID="18" Name="Promyvion - Dem" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/17.DAT" />
+  <Zones ID="19" Name="Spire of Dem" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/18.DAT" />
+  <Zones ID="20" Name="Promyvion - Mea" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/19.DAT" />
+  <Zones ID="21" Name="Spire of Mea" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/20.DAT" />
+  <Zones ID="22" Name="Promyvion - Vahzl" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/21.DAT" />
+  <Zones ID="23" Name="Spire of Vahzl" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/22.DAT" />
+  <Zones ID="24" Name="Lufaise Meadows" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/23.DAT" />
+  <Zones ID="25" Name="Misareaux Coast" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/24.DAT" />
+  <Zones ID="26" Name="Tavnazian Safehold" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/25.DAT" />
+  <Zones ID="27" Name="Phomiuna Aqueducts" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/26.DAT" />
+  <Zones ID="28" Name="Sacrarium" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/27.DAT" />
+  <Zones ID="29" Name="Riverne - Site #B01" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/28.DAT" />
+  <Zones ID="30" Name="Riverne - Site #A01" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/29.DAT" />
+  <Zones ID="31" Name="Monarch Linn" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/30.DAT" />
+  <Zones ID="32" Name="Sealion's Den" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/31.DAT" />
+  <Zones ID="33" Name="Al'Taieu" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/32.DAT" />
+  <Zones ID="34" Name="Grand Palace of Hu'Xzoi" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/33.DAT" />
+  <Zones ID="35" Name="The Garden of Ru'Hmet" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/34.DAT" />
+  <Zones ID="36" Name="Empyreal Paradox" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/0/35.DAT" />
+  <Zones ID="37" Name="Temenos" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/3/82.DAT" />
+  <Zones ID="38" Name="Apollyon" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/5/1.DAT" />
+  <Zones ID="39" Name="Dynamis - Valkurm" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/5/2.DAT" />
+  <Zones ID="40" Name="Dynamis - Buburimu" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/5/3.DAT" />
+  <Zones ID="41" Name="Dynamis - Qufim" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/5/4.DAT" />
+  <Zones ID="42" Name="Dynamis - Tavnazia" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/5/5.DAT" />
+  <Zones ID="43" Name="Diorama Abdhaljs-Ghelsba" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/5/6.DAT" />
+<!--   <Zones ID="44" Name="Abdhaljs Isle-Purgonorgo" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM3/5/7.DAT" />-->
+  <Zones ID="45" Name="Abyssea - Tahrongi" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/240/107.DAT" />
+<!--   <Zones ID="46" Name="Open sea route to Al Zahbi" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/0.DAT" />-->
+ <!--  <Zones ID="47" Name="Open sea route to Mhaura" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/1.DAT" /> -->
+ <!-- <Zones ID="48" Name="Al Zahbi" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/2.DAT" />-->
+  <Zones ID="49" Name="none" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/40.DAT" />
+  <Zones ID="50" Name="Aht Urhgan Whitegate" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/3.DAT" />
+  <Zones ID="51" Name="Wajaom Woodlands" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/1/99.DAT" />
+  <Zones ID="52" Name="Bhaflau Thickets" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/7/55.DAT" />
+  <Zones ID="53" Name="Nashmau" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/6.DAT" />
+  <Zones ID="54" Name="Arrapago Reef" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/7.DAT" />
+  <Zones ID="55" Name="Ilrusi Atoll" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/8.DAT" />
+  <Zones ID="56" Name="Periqia" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/9.DAT" />
+  <Zones ID="57" Name="Talacca Cove" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/10.DAT" />
+<!--   <Zones ID="58" Name="Silver Sea route to Nashmau" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/11.DAT" />-->
+ <!-- <Zones ID="59" Name="Silver Sea route to Al Zahbi" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/12.DAT" /> -->
+<!-- <Zones ID="60" Name="The Ashu Talif" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/13.DAT" />-->
+  <Zones ID="61" Name="Mount Zhayolm" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/14.DAT" />
+  <Zones ID="62" Name="Halvung" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/15.DAT" />
+  <Zones ID="63" Name="Lebros Cavern" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/16.DAT" />
+  <Zones ID="64" Name="Navukgo Execution Chamber" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/17.DAT" />
+  <Zones ID="65" Name="Mamook" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/18.DAT" />
+  <Zones ID="66" Name="Mamool Ja Training Grounds" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/19.DAT" />
+  <Zones ID="67" Name="Jade Sepulcher" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/20.DAT" />
+  <Zones ID="68" Name="Aydeewa Subterrane" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/21.DAT" />
+  <Zones ID="69" Name="Leujaoam Sanctum" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/22.DAT" />
+  <Zones ID="70" Name="Chocobo Circuit" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/5/106.DAT" />
+  <Zones ID="71" Name="The Colosseum" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/24.DAT" />
+  <Zones ID="72" Name="Alzadaal Undersea Ruins" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/25.DAT" />
+  <Zones ID="73" Name="Zhayolm Remnants" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/26.DAT" />
+  <Zones ID="74" Name="Arrapago Remnants" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/27.DAT" />
+  <Zones ID="75" Name="Bhaflau Remnants" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/28.DAT" />
+  <Zones ID="76" Name="Silver Sea Remnants" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/29.DAT" />
+  <Zones ID="77" Name="Nyzul Isle" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/30.DAT" />
+  <Zones ID="78" Name="Hazhalm Testing Grounds" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/31.DAT" />
+  <Zones ID="79" Name="Caedarva Mire" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/32.DAT" />
+  <Zones ID="80" Name="Southern San d'Oria [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/0.DAT" />
+  <Zones ID="81" Name="East Ronfaure [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/1.DAT" />
+  <Zones ID="82" Name="Jugner Forest [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/2.DAT" />
+  <Zones ID="83" Name="Vunkerl Inlet [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/3.DAT" />
+  <Zones ID="84" Name="Batallia Downs [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/4.DAT" />
+  <Zones ID="85" Name="La Vaule [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/5.DAT" />
+  <Zones ID="86" Name="Everbloom Hollow" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/6.DAT" />
+  <Zones ID="87" Name="Bastok Markets [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/7.DAT" />
+  <Zones ID="88" Name="North Gustaberg [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/8.DAT" />
+  <Zones ID="89" Name="Grauberg [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/9.DAT" />
+  <Zones ID="90" Name="Pashhow Marshlands [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/10.DAT" />
+  <Zones ID="91" Name="Rolanberry Fields [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/11.DAT" />
+  <Zones ID="92" Name="Beadeaux [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/12.DAT" />
+  <Zones ID="93" Name="Ruhotz Silvermines" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/13.DAT" />
+  <Zones ID="94" Name="Windurst Waters [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/14.DAT" />
+  <Zones ID="95" Name="West Sarutabaruta [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/15.DAT" />
+  <Zones ID="96" Name="Fort Karugo-Narugo [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/16.DAT" />
+  <Zones ID="97" Name="Meriphataud Mountains [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/17.DAT" />
+  <Zones ID="98" Name="Sauromugue Champaign [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/18.DAT" />
+  <Zones ID="99" Name="Castle Oztroja [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/19.DAT" />
+  <Zones ID="100" Name="West Ronfaure" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/120.DAT" />
+  <Zones ID="101" Name="East Ronfaure" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/121.DAT" />
+  <Zones ID="102" Name="La Theine Plateau" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/115.DAT" />
+  <Zones ID="103" Name="Valkurm Dunes" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/102.DAT" />
+  <Zones ID="104" Name="Jugner Forest" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/114.DAT" />
+  <Zones ID="105" Name="Batallia Downs" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/122.DAT" />
+  <Zones ID="106" Name="North Gustaberg" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/123.DAT" />
+  <Zones ID="107" Name="South Gustaberg" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/124.DAT" />
+  <Zones ID="108" Name="Konschtat Highlands" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/90.DAT" />
+  <Zones ID="109" Name="Pashhow Marshlands" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/125.DAT" />
+  <Zones ID="110" Name="Rolanberry Fields" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/126.DAT" />
+  <Zones ID="111" Name="Beaucedine Glacier" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/72.DAT" />
+  <Zones ID="112" Name="Xarcabard" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/57.DAT" />
+  <Zones ID="113" Name="Cape Teriggan" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/0.DAT" />
+  <Zones ID="114" Name="Eastern Altepa Desert" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/1.DAT" />
+  <Zones ID="115" Name="West Sarutabaruta" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/127.DAT" />
+  <Zones ID="116" Name="East Sarutabaruta" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/0.DAT" />
+  <Zones ID="117" Name="Tahrongi Canyon" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/1.DAT" />
+  <Zones ID="118" Name="Buburimu Peninsula" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/71.DAT" />
+  <Zones ID="119" Name="Meriphataud Mountains" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/101.DAT" />
+  <Zones ID="120" Name="Sauromugue Champaign" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/2.DAT" />
+  <Zones ID="121" Name="The Sanctuary of Zi'Tah" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/2.DAT" />
+  <Zones ID="122" Name="Ro'Maeve" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/3.DAT" />
+  <Zones ID="123" Name="Yuhtunga Jungle" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/4.DAT" />
+  <Zones ID="124" Name="Yhoator Jungle" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/5.DAT" />
+  <Zones ID="125" Name="Western Altepa Desert" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/6.DAT" />
+  <Zones ID="126" Name="Qufim Island" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/58.DAT" />
+  <Zones ID="127" Name="Behemoth's Dominion" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/3.DAT" />
+  <Zones ID="128" Name="Valley of Sorrows" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/7.DAT" />
+  <Zones ID="129" Name="Ghoyu's Reverie" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/20.DAT" />
+  <Zones ID="130" Name="Ru'Aun Gardens" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/107.DAT" />
+  <Zones ID="131" Name="Mordion Gaol" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/4.DAT" />
+  <Zones ID="132" Name="Abyssea - La Theine" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/240/108.DAT" />
+  <Zones ID="133" Name="Lobby" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/5.DAT" />
+  <Zones ID="134" Name="Dynamis - Beaucedine" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/108.DAT" />
+  <Zones ID="135" Name="Dynamis - Xarcabard" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/109.DAT" />
+  <Zones ID="136" Name="Beaucedine Glacier [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/21.DAT" />
+  <Zones ID="137" Name="Xarcabard [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/22.DAT" />
+  <Zones ID="138" Name="Castle Zvahl Baileys [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/23.DAT" />
+  <!--<Zones ID="139" Name="Horlais Peak" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/6.DAT" />-->
+  <Zones ID="140" Name="Ghelsba Outpost" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/95.DAT" />
+  <Zones ID="141" Name="Fort Ghelsba" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/7.DAT" />
+<!--   <Zones ID="142" Name="Yughott Grotto" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/8.DAT" /> -->
+  <Zones ID="143" Name="Palborough Mines" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/88.DAT" />
+  <Zones ID="144" Name="Waughroon Shrine" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/89.DAT" />
+  <Zones ID="145" Name="Giddeus" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/104.DAT" />
+  <Zones ID="146" Name="Balga's Dais" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/105.DAT" />
+  <Zones ID="147" Name="Beadeaux" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/61.DAT" />
+  <Zones ID="148" Name="Qulun Dome" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/62.DAT" />
+  <Zones ID="149" Name="Davoi" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/99.DAT" />
+  <Zones ID="150" Name="Monastic Cavern" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/100.DAT" />
+  <Zones ID="151" Name="Castle Oztroja" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/63.DAT" />
+  <Zones ID="152" Name="Altar Room" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/64.DAT" />
+  <Zones ID="153" Name="The Boyahda Tree" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/8.DAT" />
+  <Zones ID="154" Name="Dragon's Aery" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/9.DAT" />
+  <Zones ID="155" Name="Castle Zvahl Keep [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/24.DAT" />
+  <Zones ID="156" Name="Throne Room [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/25.DAT" />
+  <Zones ID="157" Name="Middle Delkfutt's Tower" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/56.DAT" />
+  <Zones ID="158" Name="Upper Delkfutt's Tower" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/9.DAT" />
+  <Zones ID="159" Name="Temple of Uggalepih" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/10.DAT" />
+  <Zones ID="160" Name="Den of Rancor" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/110.DAT" />
+  <Zones ID="161" Name="Castle Zvahl Baileys" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/60.DAT" />
+  <Zones ID="162" Name="Castle Zvahl Keep" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/73.DAT" />
+  <Zones ID="163" Name="Sacrificial Chamber" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/111.DAT" />
+  <Zones ID="164" Name="Garlaige Citadel [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/26.DAT" />
+  <Zones ID="165" Name="Throne Room" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/74.DAT" />
+  <Zones ID="166" Name="Ranguemont Pass" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/10.DAT" />
+  <Zones ID="167" Name="Bostaunieux Oubliette" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/108.DAT" />
+  <Zones ID="168" Name="Chamber of Oracles" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/11.DAT" />
+  <Zones ID="169" Name="Toraimarai Canal" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/65.DAT" />
+  <Zones ID="170" Name="Full Moon Fountain" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/12.DAT" />
+  <Zones ID="171" Name="Crawlers' Nest [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/27.DAT" />
+  <Zones ID="172" Name="Zeruhn Mines" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/11.DAT" />
+  <Zones ID="173" Name="Korroloka Tunnel" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/13.DAT" />
+  <Zones ID="174" Name="Kuftal Tunnel" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/14.DAT" />
+  <Zones ID="175" Name="The Eldieme Necropolis [S]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/28.DAT" />
+  <Zones ID="176" Name="Sea Serpent Grotto" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/15.DAT" />
+  <Zones ID="177" Name="Ve'Lugannon Palace" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/112.DAT" />
+  <Zones ID="178" Name="The Shrine of Ru'Avitau" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/113.DAT" />
+  <Zones ID="179" Name="Stellar Fulcrum" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/16.DAT" />
+  <Zones ID="180" Name="La'Loff Amphitheater" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/114.DAT" />
+  <Zones ID="181" Name="The Celestial Nexus" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/115.DAT" />
+  <Zones ID="182" Name="Walk of Echoes" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/29.DAT" />
+  <Zones ID="183" Name="Maquette Abdhaljs-Legion" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/12.DAT" />
+  <Zones ID="184" Name="Lower Delkfutt's Tower" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/13.DAT" />
+  <Zones ID="185" Name="Dynamis - San d'Oria" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/116.DAT" />
+  <Zones ID="186" Name="Dynamis - Bastok" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/117.DAT" />
+  <Zones ID="187" Name="Dynamis - Windurst" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/118.DAT" />
+  <Zones ID="188" Name="Dynamis - Jeuno" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/119.DAT" />
+  <Zones ID="189" Name="NILL" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/30.DAT" />
+  <Zones ID="190" Name="King Ranperre's Tomb" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/14.DAT" />
+  <Zones ID="191" Name="Dangruf Wadi" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/52.DAT" />
+  <Zones ID="192" Name="Inner Horutoto Ruins" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/112.DAT" />
+  <Zones ID="193" Name="Ordelle's Caves" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/92.DAT" />
+  <Zones ID="194" Name="Outer Horutoto Ruins" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/15.DAT" />
+  <Zones ID="195" Name="The Eldieme Necropolis" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/77.DAT" />
+  <Zones ID="196" Name="Gusgen Mines" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/16.DAT" />
+  <Zones ID="197" Name="Crawlers' Nest" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/76.DAT" />
+  <Zones ID="198" Name="Maze of Shakhrami" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/75.DAT" />
+  <Zones ID="199" Name="NILL" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/31.DAT" />
+  <Zones ID="200" Name="Garlaige Citadel" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/17.DAT" />
+  <Zones ID="201" Name="Cloister of Gales" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/17.DAT" />
+  <Zones ID="202" Name="Cloister of Storms" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/18.DAT" />
+  <Zones ID="203" Name="Cloister of Frost" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/19.DAT" />
+  <Zones ID="204" Name="Fei'Yin" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/18.DAT" />
+  <Zones ID="205" Name="Ifrit's Cauldron" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/20.DAT" />
+  <Zones ID="206" Name="Qu'Bia Arena" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/19.DAT" />
+  <Zones ID="207" Name="Cloister of Flames" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/21.DAT" />
+  <Zones ID="208" Name="Quicksand Caves" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/120.DAT" />
+  <Zones ID="209" Name="Cloister of Tremors" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/22.DAT" />
+  <Zones ID="210" Name="NILL" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/40.DAT" />
+  <Zones ID="211" Name="Cloister of Tides" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/23.DAT" />
+  <Zones ID="212" Name="Gustav Tunnel" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/121.DAT" />
+  <Zones ID="213" Name="Labyrinth of Onzozo" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/122.DAT" />
+  <Zones ID="214" Name="NILL" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM4/0/33.DAT" />
+  <Zones ID="215" Name="Abyssea - Attohwa" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/254/7.DAT" />
+  <Zones ID="216" Name="Abyssea - Misareaux" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/254/8.DAT" />
+  <Zones ID="217" Name="Abyssea - Vunkerl" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/254/9.DAT" />
+  <Zones ID="218" Name="Abyssea - Altepa" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/258/110.DAT" />
+  <Zones ID="219" Name="NILL" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM5/0/32.DAT" />
+<!--   <Zones ID="220" Name="Ship bound for Selbina" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/24.DAT" /> -->
+ <!--  <Zones ID="221" Name="Ship bound for Mhaura" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/25.DAT" /> -->
+  <Zones ID="222" Name="Provenance" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/280/2.DAT" />
+<!--   <Zones ID="223" Name="San d'Oria-Jeuno Airship" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/26.DAT" />
+  <Zones ID="224" Name="Bastok-Jeuno Airship" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/27.DAT" />
+  <Zones ID="225" Name="Windurst-Jeuno Airship" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/28.DAT" />
+  <Zones ID="226" Name="Kazham-Jeuno Airship" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/24.DAT" />
+  <Zones ID="227" Name="Ship bound for Selbina" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/29.DAT" />
+  <Zones ID="228" Name="Ship bound for Mhaura" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/30.DAT" /> -->
+  <Zones ID="229" Name="NILL" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/119.DAT" />
+  <Zones ID="230" Name="Southern San d'Oria" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/31.DAT" />
+  <Zones ID="231" Name="Northern San d'Oria" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/32.DAT" />
+  <Zones ID="232" Name="Port San d'Oria" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/113.DAT" />
+  <Zones ID="233" Name="Chateau d'Oraguille" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/33.DAT" />
+  <Zones ID="234" Name="Bastok Mines" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/34.DAT" />
+  <Zones ID="235" Name="Bastok Markets" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/35.DAT" />
+  <Zones ID="236" Name="Port Bastok" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/36.DAT" />
+  <Zones ID="237" Name="Metalworks" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/37.DAT" />
+  <Zones ID="238" Name="Windurst Waters" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/78.DAT" />
+  <Zones ID="239" Name="Windurst Walls" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/79.DAT" />
+  <Zones ID="240" Name="Port Windurst" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/80.DAT" />
+  <Zones ID="241" Name="Windurst Woods" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/0/81.DAT" />
+  <Zones ID="242" Name="Heavens Tower" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/38.DAT" />
+  <Zones ID="243" Name="Ru'Lude Gardens" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/39.DAT" />
+  <Zones ID="244" Name="Upper Jeuno" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/40.DAT" />
+  <Zones ID="245" Name="Lower Jeuno" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/41.DAT" />
+  <Zones ID="246" Name="Port Jeuno" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/42.DAT" />
+  <Zones ID="247" Name="Rabao" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/12/123.DAT" />
+  <Zones ID="248" Name="Selbina" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/43.DAT" />
+  <Zones ID="249" Name="Mhaura" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/1/44.DAT" />
+  <Zones ID="250" Name="Kazham" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/25.DAT" />
+  <Zones ID="251" Name="Hall of the Gods" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/21/114.DAT" />
+  <Zones ID="252" Name="Norg" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM2/0/27.DAT" />
+  <Zones ID="253" Name="Abyssea - Uleguerand" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/258/111.DAT" />
+  <Zones ID="254" Name="Abyssea - Grauberg" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/258/112.DAT" />
+  <Zones ID="255" Name="Abyssea - Empyreal Paradox" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/258/113.DAT" />
+  <Zones ID="256" Name="Western Adoulin" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/3.DAT" />
+  <Zones ID="257" Name="Eastern Adoulin" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/4.DAT" />
+  <Zones ID="258" Name="Rala Waterways" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/5.DAT" />
+  <Zones ID="259" Name="Rala Waterways [U]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/6.DAT" />
+  <Zones ID="260" Name="Yahse Hunting Grounds" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/7.DAT" />
+  <Zones ID="261" Name="Ceizak Battlegrounds" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/8.DAT" />
+  <Zones ID="262" Name="Foret de Hennetiel" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/9.DAT" />
+  <Zones ID="263" Name="Yorcia Weald" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/10.DAT" />
+  <Zones ID="264" Name="Yorcia Weald [U]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/11.DAT" />
+  <Zones ID="265" Name="Morimar Basalt Fields" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/12.DAT" />
+  <Zones ID="266" Name="Marjami Ravine" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/13.DAT" />
+  <Zones ID="267" Name="Kamihr Drifts" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/14.DAT" />
+  <Zones ID="268" Name="Sih Gates" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/15.DAT" />
+  <Zones ID="269" Name="Moh Gates" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/16.DAT" />
+  <Zones ID="270" Name="Cirdas Caverns" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/17.DAT" />
+  <Zones ID="271" Name="Cirdas Caverns [U]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/18.DAT" />
+  <Zones ID="272" Name="Dho Gates" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/19.DAT" />
+  <Zones ID="273" Name="Woh Gates" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/20.DAT" />
+  <Zones ID="274" Name="Outer Ra'Kaznar" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/21.DAT" />
+  <Zones ID="275" Name="Outer Ra'Kaznar [U]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/22.DAT" />
+  <Zones ID="276" Name="Ra'Kaznar Inner Court" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/23.DAT" />
+  <Zones ID="277" Name="Ra'Kaznar Turris" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/24.DAT" />
+  <Zones ID="278" Name="NILL" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/25.DAT" />
+  <Zones ID="279" Name="NILL" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/0/26.DAT" />
+  <Zones ID="280" Name="Mog Garden" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/309/10.DAT" />
+  <Zones ID="281" Name="Leafallia" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM9/8/10.DAT" />
+  <Zones ID="282" Name="Mount Kamihr" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/315/102.DAT" />
   <Zones ID="283" Name="Silver Knife" Path="NILL" />
-  <Zones ID="284" Name="Celennia Memorial Library" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/303/26.DAT" />
-  <Zones ID="285" Name="Feretory" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/306/54.DAT" />
+  <Zones ID="284" Name="Celennia Memorial Library" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/303/26.DAT" />
+  <Zones ID="285" Name="Feretory" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/306/54.DAT" />
   <Zones ID="286" Name="NILL" Path="NILL" />
   <Zones ID="287" Name="NILL" Path="NILL" />
-  <Zones ID="288" Name="Escha - Zi'Tah" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/332/99.DAT" />
-  <Zones ID="289" Name="Escha - Ru'Aun" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/337/59.DAT" />
-  <Zones ID="290" Name="Desuetia - Empyreal Paradox" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/342/72.DAT" />
-  <Zones ID="291" Name="Reisenjima" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/342/73.DAT" />
-  <Zones ID="292" Name="Reisenjima Henge" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/351/58.DAT" />
-  <Zones ID="293" Name="Reisenjima Sanctorium" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/342/74.DAT" />
-  <Zones ID="294" Name="Dynamis - San d'Oria [D]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/354/109.DAT" />
-  <Zones ID="295" Name="Dynamis - Bastok [D]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/355/3.DAT" />
-  <Zones ID="296" Name="Dynamis - Windurst [D]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/355/32.DAT" />
-  <Zones ID="297" Name="Dynamis - Jeuno [D]" Path="C:\Program Files (x86)\PlayOnline\SquareEnix\FINAL FANTASY XI\ROM/355/47.DAT" />
+  <Zones ID="288" Name="Escha - Zi'Tah" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/332/99.DAT" />
+  <Zones ID="289" Name="Escha - Ru'Aun" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/337/59.DAT" />
+  <Zones ID="290" Name="Desuetia - Empyreal Paradox" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/342/72.DAT" />
+  <Zones ID="291" Name="Reisenjima" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/342/73.DAT" />
+  <Zones ID="292" Name="Reisenjima Henge" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/351/58.DAT" />
+  <Zones ID="293" Name="Reisenjima Sanctorium" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/342/74.DAT" />
+  <Zones ID="294" Name="Dynamis - San d'Oria [D]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/354/109.DAT" />
+  <Zones ID="295" Name="Dynamis - Bastok [D]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/355/3.DAT" />
+  <Zones ID="296" Name="Dynamis - Windurst [D]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/355/32.DAT" />
+  <Zones ID="297" Name="Dynamis - Jeuno [D]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/355/47.DAT" />
+   <Zones ID="298" Name="Walk of Echoes [P1]" Path="C:/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ROM/361/85.DAT" />
 </ArrayOfZones>

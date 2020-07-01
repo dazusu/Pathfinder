@@ -75,7 +75,6 @@ namespace PathFinder
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button7 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
@@ -378,7 +377,6 @@ namespace PathFinder
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.button7);
             this.tabPage2.Controls.Add(this.label16);
             this.tabPage2.Controls.Add(this.button5);
             this.tabPage2.Controls.Add(this.label15);
@@ -407,13 +405,6 @@ namespace PathFinder
             this.tabPage2.TabIndex = 6;
             this.tabPage2.Text = "NavMesh";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(0, 0);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 0;
             // 
             // label16
             // 
@@ -460,7 +451,7 @@ namespace PathFinder
             // TSTB
             // 
             this.TSTB.Location = new System.Drawing.Point(321, 67);
-            this.TSTB.MaxLength = 4;
+            this.TSTB.MaxLength = 6;
             this.TSTB.Name = "TSTB";
             this.TSTB.Size = new System.Drawing.Size(46, 20);
             this.TSTB.TabIndex = 30;
@@ -471,7 +462,7 @@ namespace PathFinder
             // MSTB
             // 
             this.MSTB.Location = new System.Drawing.Point(321, 41);
-            this.MSTB.MaxLength = 4;
+            this.MSTB.MaxLength = 6;
             this.MSTB.Name = "MSTB";
             this.MSTB.Size = new System.Drawing.Size(46, 20);
             this.MSTB.TabIndex = 29;
@@ -482,29 +473,29 @@ namespace PathFinder
             // MCTB
             // 
             this.MCTB.Location = new System.Drawing.Point(321, 15);
-            this.MCTB.MaxLength = 4;
+            this.MCTB.MaxLength = 6;
             this.MCTB.Name = "MCTB";
             this.MCTB.Size = new System.Drawing.Size(46, 20);
             this.MCTB.TabIndex = 28;
-            this.MCTB.Text = "0.7";
+            this.MCTB.Text = "0.4";
             this.MCTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.MCTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.MCTB_KeyPress);
             // 
             // ARTB
             // 
             this.ARTB.Location = new System.Drawing.Point(102, 96);
-            this.ARTB.MaxLength = 4;
+            this.ARTB.MaxLength = 6;
             this.ARTB.Name = "ARTB";
             this.ARTB.Size = new System.Drawing.Size(46, 20);
             this.ARTB.TabIndex = 27;
-            this.ARTB.Text = "0.4";
+            this.ARTB.Text = "0.6";
             this.ARTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ARTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ARTB_KeyPress);
             // 
             // AHTB
             // 
             this.AHTB.Location = new System.Drawing.Point(102, 70);
-            this.AHTB.MaxLength = 4;
+            this.AHTB.MaxLength = 6;
             this.AHTB.Name = "AHTB";
             this.AHTB.Size = new System.Drawing.Size(46, 20);
             this.AHTB.TabIndex = 26;
@@ -515,22 +506,22 @@ namespace PathFinder
             // CHTB
             // 
             this.CHTB.Location = new System.Drawing.Point(102, 44);
-            this.CHTB.MaxLength = 4;
+            this.CHTB.MaxLength = 6;
             this.CHTB.Name = "CHTB";
             this.CHTB.Size = new System.Drawing.Size(46, 20);
             this.CHTB.TabIndex = 25;
-            this.CHTB.Text = "0.10";
+            this.CHTB.Text = "0.075";
             this.CHTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CHTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CHTB_KeyPress);
             // 
             // CSTB
             // 
             this.CSTB.Location = new System.Drawing.Point(102, 18);
-            this.CSTB.MaxLength = 4;
+            this.CSTB.MaxLength = 6;
             this.CSTB.Name = "CSTB";
             this.CSTB.Size = new System.Drawing.Size(46, 20);
             this.CSTB.TabIndex = 24;
-            this.CSTB.Text = "0.20";
+            this.CSTB.Text = "0.15";
             this.CSTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CSTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CSTB_KeyPress);
             // 
@@ -802,6 +793,5 @@ namespace PathFinder
         private System.Windows.Forms.Label label17;
         private System.ComponentModel.BackgroundWorker DumpMeshes;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
     }
 }

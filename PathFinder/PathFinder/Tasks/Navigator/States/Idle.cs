@@ -79,8 +79,21 @@ namespace PathFinder.Tasks.Nav.States
         {
             Character.Navi.Reset();
             Log.AddDebugText(TC.rtbDebug, string.Format("Exiting {0} State", GetType().Name));
+            WriteTextSafe("Start");
         }
-
+        private delegate void SafeCallDelegate(string text);
+        private void WriteTextSafe(string text)
+        {
+            if (Character.Tc.RunBtn.InvokeRequired)
+            {
+                var d = new SafeCallDelegate(WriteTextSafe);
+                Character.Tc.RunBtn.Invoke(d, new object[] { text });
+            }
+            else
+            {
+                Character.Tc.RunBtn.Text = text;
+            }
+        }
         /// <summary>
         /// Main state loop, called every pulse, Logic goes here.
         /// </summary>

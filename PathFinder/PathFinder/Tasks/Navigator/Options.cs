@@ -105,5 +105,7 @@ namespace PathFinder.Tasks.Nav
         /// </summary>
         /// <value>The destination.</value>
         public position_t Destination { get; set; }
+
+        public bool StopRunning { get; set; } = false;
     }
 }

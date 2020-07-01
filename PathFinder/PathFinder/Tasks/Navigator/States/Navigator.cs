@@ -80,7 +80,8 @@ namespace PathFinder.Tasks.Nav.States
                            && Character.Status == EntityStatus.Idle
                            && Character.FFxiNAV.Waypoints.Count > 0
                            && Character.Navi.DistanceTo(Character.Tasks.NavTask.Options.Posi) > 3
-                           && !Character.Navi.Destination(Character.Tasks.NavTask.Options.Posi);
+                           && !Character.Navi.Destination(Character.Tasks.NavTask.Options.Posi)
+                           && !Character.Tasks.NavTask.Options.StopRunning;
             }
         }
 
@@ -128,7 +129,7 @@ namespace PathFinder.Tasks.Nav.States
                         position_t Point = new position_t { X = Character.FFxiNAV.Waypoints[i].X, Y = Character.FFxiNAV.Waypoints[i].Y, Z = Character.FFxiNAV.Waypoints[i].Z };
                         var Distance = Character.Navi.DistanceTo(Point);
                         var Destination = Character.Navi.Destination(Character.Tasks.NavTask.Options.Posi);
-                        if (Distance > 1.5 && !Destination)
+                        if (Distance > 1 && !Destination && !Character.Tasks.NavTask.Options.StopRunning)
                         {
                             Character.Navi.GoTo(Point.X, Point.Z);
                             New = string.Format(@"Pathing to x {0}, z {1}",
@@ -144,11 +145,14 @@ namespace PathFinder.Tasks.Nav.States
                             
                             
                         }
-                        if (Distance < 1.5)
+                        if (Distance < 0.3)
                         {
                             Character.Logger.AddDebugText(Character.Tc.rtbDebug, string.Format(@"Here...Pathing to next point..."));
+                           // Character.Api.AutoFollow.IsAutoFollowing = false;
+                           // Character.Api.AutoFollow.SetAutoFollowCoords(0, 0, 0);
                             i++;
                         }
+
                     }
                 }
                 else

@@ -119,6 +119,9 @@ namespace PathFinder
             if (Character.Tasks.NavTask.Options.Points.Count > 0)
             {
                 SelectedPoint = PointsComboBox.SelectedItem.ToString();
+                Character.Api.AutoFollow.IsAutoFollowing = false;
+                Character.FFxiNAV.Waypoints.Clear();
+                Character.Tasks.NavTask.Options.WayPoints.Clear();
                 foreach (var item in Character.Tasks.NavTask.Options.Points)
                 {
                     if (item.ID == Character.Api.Player.ZoneId && item.Name == SelectedPoint)
@@ -149,11 +152,18 @@ namespace PathFinder
                 RunBtn.Text = "Stop";
                 Thread.Sleep(100);
                 Character.Tasks.NavTask.Start();
+                Character.Tasks.NavTask.Options.StopRunning = false;
             }
             else if (RunBtn.Text == "Stop")
             {
                 Character.Tasks.NavTask.Stop();
                 Character.Navi.Reset();
+                Character.Tasks.Stop();
+                Character.FFxiNAV.Waypoints.Clear();
+                Character.Tasks.NavTask.Options.WayPoints.Clear();
+                Character.Tasks.NavTask.Options.StopRunning = true;
+              //  Character.Api.AutoFollow.IsAutoFollowing = false;
+              //  Character.Api.AutoFollow.SetAutoFollowCoords(0, 0, 0);
                 RunBtn.Text = "Start";
                 Thread.Sleep(200);
                 Character.Navi.Reset();
@@ -164,6 +174,11 @@ namespace PathFinder
                 Thread.Sleep(100);
                 Character.Tasks.NavTask.Stop();
                 Character.Tasks.Stop();
+                Character.Api.AutoFollow.SetAutoFollowCoords(0, 0, 0);
+                Character.FFxiNAV.Waypoints.Clear();
+                Character.Tasks.NavTask.Options.WayPoints.Clear();
+                Character.Tasks.NavTask.Options.StopRunning = true;
+               // Character.Api.AutoFollow.IsAutoFollowing = false;
                 Character.Logger.AddDebugText(rtbDebug, "NavTask is busy. attempting to stop");
             }
         }
@@ -389,9 +404,14 @@ namespace PathFinder
                     string result;
                     result = Path.GetFileName(ZoneFilename);
                     string result2 = result.Substring(0, result.LastIndexOf(".") + 1);
+                    string str = string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2);
                     if (File.Exists(string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2)))
                     {
+
                         Character.Logger.AddDebugText(rtbDebug, string.Format(@"File exisits already  {0}nav", result2));
+
+                        Character.Logger.AddDebugText(rtbDebug, string.Format(@"Deleting old mesh {0}", result));
+                        File.Delete(str);
                     }
                     if (!File.Exists(string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2)))
                     {
@@ -572,10 +592,8 @@ namespace PathFinder
 
         private void DumpMeshes_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
-
             try
             {
-
                 {
                     while (!DumpMeshes.CancellationPending)
                     {
@@ -588,7 +606,13 @@ namespace PathFinder
                             string result;
                             result = Path.GetFileName(file);
                             string result2 = result.Substring(0, result.LastIndexOf(".") + 1);
+                            string str = string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2);
                             if (!File.Exists(string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2)))
+                            {
+                                Character.Logger.AddDebugText(rtbDebug, string.Format(@"Deleting old mesh {0}", result));
+                                File.Delete(str);
+                            }
+                                if (!File.Exists(string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2)))
                             {
                                 Character.Logger.AddDebugText(rtbDebug, string.Format(@"Dumping NavMesh for {0}", result));
                                 Thread.Sleep(100);
