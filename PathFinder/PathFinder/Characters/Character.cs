@@ -107,7 +107,7 @@ namespace PathFinder.Characters
             {
                 Stopwatch stopWatch = new Stopwatch();
                 stopWatch.Start();
-   
+
                 foreach (var zn in Tasks.NavTask.Options.Zones)
                 {
                     Logger.AddDebugText(Tc.rtbDebug, string.Format(@"Exporting {0} ID= {1}", zn.name, zn.id.ToString()));
@@ -127,7 +127,7 @@ namespace PathFinder.Characters
                 string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
                     ts.Hours, ts.Minutes, ts.Seconds,
                     ts.Milliseconds / 10);
-                
+
                 Logger.AddDebugText(Tc.rtbDebug, string.Format(@"Finished dumping all zones collision data .obj's"));
                 Logger.AddDebugText(Tc.rtbDebug, string.Format(@"Time Taken to dump zones collision data .obj's = " + elapsedTime));
             }

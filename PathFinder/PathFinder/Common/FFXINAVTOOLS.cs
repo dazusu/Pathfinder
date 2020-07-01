@@ -8,8 +8,6 @@
 // <summary>
 // </summary>
 // ***********************************************************************
-using PathFinder.Characters;
-using System;
 using System.Collections.Generic;
 using System.Threading;
 
@@ -67,7 +65,8 @@ namespace PathFinder.Common
             LoadOBJFile(file);
         }
 
-      public   bool DumpingMesh { get; set; } = false;
+        public bool DumpingMesh { get; set; } = false;
+
         public void Dump_NavMesh(string file)
         {
             if (DumpingMesh == false)

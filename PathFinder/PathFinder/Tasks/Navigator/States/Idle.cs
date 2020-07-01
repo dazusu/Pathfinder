@@ -81,7 +81,9 @@ namespace PathFinder.Tasks.Nav.States
             Log.AddDebugText(TC.rtbDebug, string.Format("Exiting {0} State", GetType().Name));
             WriteTextSafe("Start");
         }
+
         private delegate void SafeCallDelegate(string text);
+
         private void WriteTextSafe(string text)
         {
             if (Character.Tc.RunBtn.InvokeRequired)
@@ -94,6 +96,7 @@ namespace PathFinder.Tasks.Nav.States
                 Character.Tc.RunBtn.Text = text;
             }
         }
+
         /// <summary>
         /// Main state loop, called every pulse, Logic goes here.
         /// </summary>

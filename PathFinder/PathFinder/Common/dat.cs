@@ -19,7 +19,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Numerics;
-using System.Security.Cryptography;
 using System.Text;
 
 namespace PathFinder.Common
@@ -73,8 +72,6 @@ namespace PathFinder.Common
             br.ReadUInt32();
 
             data = br.ReadBytes((int)Length);
-
-
         }
 
         /// <summary>
@@ -295,6 +292,7 @@ namespace PathFinder.Common
         /// </summary>
         /// <value>The s.</value>
         public FileStream s { get; set; }
+
         public BinaryReader br { get; set; }
 
         /// <summary>
@@ -303,7 +301,6 @@ namespace PathFinder.Common
         /// <param name="args">The arguments.</param>
         public DAT(Stream s)
         {
-
             Chunks.Clear();
             ByteCover.Clear();
             ByteCoverName.Clear();
@@ -442,12 +439,12 @@ namespace PathFinder.Common
         /// <summary>
         /// The byte cover
         /// </summary>
-        public  Dictionary<int, int> ByteCover = new Dictionary<int, int>();
+        public Dictionary<int, int> ByteCover = new Dictionary<int, int>();
 
         /// <summary>
         /// The byte cover name
         /// </summary>
-        public  Dictionary<int, string> ByteCoverName = new Dictionary<int, string>();
+        public Dictionary<int, string> ByteCoverName = new Dictionary<int, string>();
 
         /// <summary>
         /// Adds the byte cover.
@@ -455,7 +452,7 @@ namespace PathFinder.Common
         /// <param name="name">The name.</param>
         /// <param name="pos">The position.</param>
         /// <param name="length">The length.</param>
-        public  void AddByteCover(string name, int pos, int length)
+        public void AddByteCover(string name, int pos, int length)
         {
             ByteCover[pos] = length;
             ByteCoverName[pos] = name;
@@ -464,7 +461,7 @@ namespace PathFinder.Common
         /// <summary>
         /// Prints the byte cover.
         /// </summary>
-        public  void PrintByteCover()
+        public void PrintByteCover()
         {
             string lastname = "";
             int lastpos = 0;
@@ -699,7 +696,7 @@ namespace PathFinder.Common
         /// <param name="entryoffs">The entryoffs.</param>
         /// <param name="x">The x.</param>
         /// <param name="y">The y.</param>
-        private  void ParseGridEntry(byte[] data, int entryoffs, int x, int y)
+        private void ParseGridEntry(byte[] data, int entryoffs, int x, int y)
         {
             var entries = new List<int>();
             while (true)
@@ -769,17 +766,17 @@ namespace PathFinder.Common
         /// <summary>
         /// All vertices
         /// </summary>
-        public  List<vertex> AllVertices = new List<vertex>();
+        public List<vertex> AllVertices = new List<vertex>();
 
         /// <summary>
         /// All normals
         /// </summary>
-        public  List<normal> AllNormals = new List<normal>();
+        public List<normal> AllNormals = new List<normal>();
 
         /// <summary>
         /// All triangles
         /// </summary>
-        public  List<triangle> AllTriangles = new List<triangle>();
+        public List<triangle> AllTriangles = new List<triangle>();
 
         /// <summary>
         /// Parses the grid mesh.
@@ -789,7 +786,7 @@ namespace PathFinder.Common
         /// <param name="_y">The y.</param>
         /// <param name="visentryoffset">The visentryoffset.</param>
         /// <param name="geometryoffset">The geometryoffset.</param>
-        private  void ParseGridMesh(byte[] data, int _x, int _y, int visentryoffset, int geometryoffset)
+        private void ParseGridMesh(byte[] data, int _x, int _y, int visentryoffset, int geometryoffset)
         {
             var M1 = new float[16]; //Transformation matrix
             Matrix4x4 M = new Matrix4x4();
@@ -972,7 +969,7 @@ namespace PathFinder.Common
         /// <param name="data">The data.</param>
         /// <param name="pos">The position.</param>
         /// <returns>System.Int32.</returns>
-        private  int ParseMesh(byte[] data, int pos)
+        private int ParseMesh(byte[] data, int pos)
         {
             //Console.WriteLine("{0} out of {1}", pos, data.Count());;
             int vertices = BitConverter.ToInt32(data, pos + 0x00);
@@ -989,7 +986,7 @@ namespace PathFinder.Common
         /// </summary>
         /// <param name="data">The data.</param>
         /// <param name="pos">The position.</param>
-        private  void ParseObject(byte[] data, int pos)
+        private void ParseObject(byte[] data, int pos)
         {
             string modelname = Encoding.ASCII.GetString(data, pos, 0x10);
             float[] position = new float[3]
@@ -1042,7 +1039,7 @@ namespace PathFinder.Common
         /// </summary>
         /// <param name="data">The data.</param>
         /// <param name="pos">The position.</param>
-        private  void ParseObjectListOffset(byte[] data, int pos)
+        private void ParseObjectListOffset(byte[] data, int pos)
         {
             //Console.Write(" |");
             // # of entries => n
@@ -1063,7 +1060,7 @@ namespace PathFinder.Common
         /// Parse2s the e.
         /// </summary>
         /// <param name="c">The c.</param>
-        public  void Parse2E(CHUNK c)
+        public void Parse2E(CHUNK c)
         {
             int hcount = c.data[0x20];
             //if (maxcount != 0 && maxcount != 1) //Console.WriteLine("{0,4:x4}", c.Number);
@@ -1081,7 +1078,7 @@ namespace PathFinder.Common
         /// Parse20s the specified c.
         /// </summary>
         /// <param name="c">The c.</param>
-        public  void Parse20(CHUNK c)
+        public void Parse20(CHUNK c)
         {
             //Debugger.Break();
             var filename = string.Format("{0,4:x4}-{1}-{2,2:x2}.dec", c.Number, c.FourCC, c.Type);
@@ -1168,7 +1165,7 @@ namespace PathFinder.Common
         /// <param name="y">The y.</param>
         /// <param name="theta">The theta.</param>
         /// <returns>System.Double.</returns>
-        public  double rotx(float x, float y, float theta)
+        public double rotx(float x, float y, float theta)
         {
             return x * Math.Cos(theta) - y * Math.Sin(theta);
         }
@@ -1180,7 +1177,7 @@ namespace PathFinder.Common
         /// <param name="y">The y.</param>
         /// <param name="theta">The theta.</param>
         /// <returns>System.Double.</returns>
-        public  double roty(float x, float y, float theta)
+        public double roty(float x, float y, float theta)
         {
             return x * Math.Sin(theta) + y * Math.Cos(theta);
         }
@@ -1189,7 +1186,7 @@ namespace PathFinder.Common
         /// Parse36s the specified c.
         /// </summary>
         /// <param name="c">The c.</param>
-        public  void Parse36(CHUNK c)
+        public void Parse36(CHUNK c)
         {
             // if .zoneid same as current zone, region is probably a "zone line"
             // - if srcordst is 0, the volume zones out
@@ -1264,9 +1261,7 @@ namespace PathFinder.Common
             //string filename = string.Format("{0}-decrypted", args[0]);
             //if (!File.Exists(filename)) File.WriteAllBytes(filename, file);
 
-
             DAT dat = new DAT(File.OpenRead(args[0]));
-
 
             foreach (CHUNK c in dat.Chunks)
             {
@@ -1281,10 +1276,6 @@ namespace PathFinder.Common
             dat.s = null;
             dat.br = null;
             dat = null;
-
         }
     }
 }
-
-
-

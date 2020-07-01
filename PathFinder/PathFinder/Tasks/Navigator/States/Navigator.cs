@@ -14,9 +14,6 @@ using EliteMMO.API;
 using PathFinder.Characters;
 using PathFinder.Common;
 using System;
-using System.Diagnostics;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace PathFinder.Tasks.Nav.States
 {
@@ -112,8 +109,9 @@ namespace PathFinder.Tasks.Nav.States
             Log.AddDebugText(TC.rtbDebug, string.Format("Exiting {0} State", GetType().Name));
         }
 
-        string Old;
-        string New;
+        private string Old;
+        private string New;
+
         /// <summary>
         /// Main state loop, called every pulse, Logic goes here.
         /// </summary>
@@ -142,17 +140,14 @@ namespace PathFinder.Tasks.Nav.States
                                 Character.Logger.AddDebugText(Character.Tc.rtbDebug, string.Format(@"Pathing to x {0}, z {1}, Distance {2}y",
                                  Point.X.ToString(), Point.Z.ToString(), Distance.ToString()));
                             }
-                            
-                            
                         }
                         if (Distance < 0.3)
                         {
                             Character.Logger.AddDebugText(Character.Tc.rtbDebug, string.Format(@"Here...Pathing to next point..."));
-                           // Character.Api.AutoFollow.IsAutoFollowing = false;
-                           // Character.Api.AutoFollow.SetAutoFollowCoords(0, 0, 0);
+                            // Character.Api.AutoFollow.IsAutoFollowing = false;
+                            // Character.Api.AutoFollow.SetAutoFollowCoords(0, 0, 0);
                             i++;
                         }
-
                     }
                 }
                 else

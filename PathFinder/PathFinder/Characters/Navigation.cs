@@ -325,24 +325,19 @@ namespace PathFinder.Characters
         {
             if (DistanceTo(TargetPosition) > 1)
             {
-              //  var player = Character.Api.Player;
-              //  var i = DistanceTo(TargetPosition);
+                // var player = Character.Api.Player; var i = DistanceTo(TargetPosition);
                 SetViewMode(ViewMode.FirstPerson);
                 FaceHeading(TargetPosition);
-                  KeepRunningWithKeyboard();
-              // Character.Api.AutoFollow.SetAutoFollowCoords(
-             //   TargetPosition.X - player.X,
-             //   TargetPosition.Y - player.Y,
-             //    TargetPosition.Z - player.Z);
+                KeepRunningWithKeyboard();
+                // Character.Api.AutoFollow.SetAutoFollowCoords( TargetPosition.X - player.X,
+                // TargetPosition.Y - player.Y, TargetPosition.Z - player.Z);
 
-              //  Character.Api.AutoFollow.IsAutoFollowing = true;
+                // Character.Api.AutoFollow.IsAutoFollowing = true;
 
-              //  if (useObjectAvoidance) AvoidObstacles();
+                // if (useObjectAvoidance) AvoidObstacles();
             }
-           // if (DistanceTo(TargetPosition) < 1)
-          //  {
-              //  Character.Api.AutoFollow.IsAutoFollowing = false;
-         //   }
+            // if (DistanceTo(TargetPosition) < 1) { Character.Api.AutoFollow.IsAutoFollowing =
+            // false; }
         }
 
         /// <summary>
