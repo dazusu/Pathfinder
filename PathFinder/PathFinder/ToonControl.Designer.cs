@@ -639,7 +639,7 @@ namespace PathFinder
             this.CSTB.Name = "CSTB";
             this.CSTB.Size = new System.Drawing.Size(46, 20);
             this.CSTB.TabIndex = 24;
-            this.CSTB.Text = "0.15";
+            this.CSTB.Text = "0.20";
             this.CSTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CSTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CSTB_KeyPress);
             // 
@@ -664,7 +664,7 @@ namespace PathFinder
             this.CHTB.Name = "CHTB";
             this.CHTB.Size = new System.Drawing.Size(46, 20);
             this.CHTB.TabIndex = 25;
-            this.CHTB.Text = "0.075";
+            this.CHTB.Text = "0.10";
             this.CHTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CHTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CHTB_KeyPress);
             // 
