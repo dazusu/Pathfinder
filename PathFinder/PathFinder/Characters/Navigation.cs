@@ -1,7 +1,9 @@
 ﻿// *********************************************************************** Assembly : PathFinder
-// Author : xenonsmurf Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020
+// Author : xenonsmurf Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020 Created :
+// Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020 Created :
 //
-// Last Modified By : xenonsmurf Last Modified On : 04-02-2020 Last Modified On : 04-12-2020 ***********************************************************************
+// Last Modified By : xenonsmurf Last Modified On : 04-02-2020 Last Modified On : 04-12-2020 Last
+// Modified On : 07-04-2020 ***********************************************************************
 // <copyright file="Navigation.cs" company="Xenonsmurf">
 //     Copyright © 2020
 // </copyright>
@@ -134,10 +136,13 @@ namespace PathFinder.Characters
         public void FaceHeading(position_t position)
         {
             var player = Character.Api.Entity.GetLocalPlayer();
+            var Playerpos = new position_t { X = Character.Api.Player.X, Y = Character.Api.Player.Y, Z = Character.Api.Player.Z, Moving = 0, Rotation = (sbyte)Character.Api.Player.H };
             var angle = (byte)(Math.Atan((position.Z - player.Z) / (position.X - player.X)) * -(128.0f / Math.PI));
             if (player.X > position.X) angle += 128;
             var radian = (float)angle / 255 * 2 * Math.PI;
             Character.Api.Entity.SetEntityHPosition(Character.Api.Entity.LocalPlayerIndex, (float)radian);
+            // Character.Logger.AddDebugText(Character.Tc.rtbDebug, string.Format(@"radian {0}
+            // Rotation {1}", radian.ToString(), Character.FFxiNAV.Getrotation(Playerpos, position).ToString()));
         }
 
         /// <summary>
@@ -257,7 +262,7 @@ namespace PathFinder.Characters
             if (IsStuck())
             {
                 if (Character.IsEngaged())
-                    WiggleCharacter(attempts: 3);
+                    WiggleCharacter(attempts: 5);
             }
         }
 
@@ -325,19 +330,22 @@ namespace PathFinder.Characters
         {
             if (DistanceTo(TargetPosition) > 1)
             {
-                // var player = Character.Api.Player; var i = DistanceTo(TargetPosition);
-                SetViewMode(ViewMode.FirstPerson);
+                var player = Character.Api.Player; var i = DistanceTo(TargetPosition);
+
+                float normalized = (float)i;
+                float goToX = 0;
+                float goToZ = 0;
+                float goToY = 0;
+                if (player.X != 0 || player.Z != 0 || TargetPosition.X != 0 || TargetPosition.Z != 0)
+                {
+                    goToX = (TargetPosition.X - player.X) / normalized;
+                    goToZ = (TargetPosition.Z - player.Z) / normalized;
+                    goToY = (TargetPosition.Y - player.Y) / normalized;
+                }
                 FaceHeading(TargetPosition);
-                KeepRunningWithKeyboard();
-                // Character.Api.AutoFollow.SetAutoFollowCoords( TargetPosition.X - player.X,
-                // TargetPosition.Y - player.Y, TargetPosition.Z - player.Z);
-
-                // Character.Api.AutoFollow.IsAutoFollowing = true;
-
-                // if (useObjectAvoidance) AvoidObstacles();
+                Character.Api.AutoFollow.SetAutoFollowCoords(goToX, 0, goToZ);
+                Character.Api.AutoFollow.IsAutoFollowing = true;
             }
-            // if (DistanceTo(TargetPosition) < 1) { Character.Api.AutoFollow.IsAutoFollowing =
-            // false; }
         }
 
         /// <summary>

@@ -4,7 +4,7 @@
 // Created          : 03-16-2020
 //
 // Last Modified By : xenonsmurf
-// Last Modified On : 04-11-2020
+// Last Modified On : 07-04-2020
 // ***********************************************************************
 // <copyright file="MainForm.Designer.cs" company="Xenonsmurf">
 //     Copyright ©  2020
@@ -153,9 +153,21 @@ namespace PathFinder
         /// The next BTN
         /// </summary>
         public System.Windows.Forms.Button NextBtn;
+        /// <summary>
+        /// The menu strip1
+        /// </summary>
         private System.Windows.Forms.MenuStrip menuStrip1;
+        /// <summary>
+        /// The settings tool strip menu item
+        /// </summary>
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
+        /// <summary>
+        /// The on top tool strip menu item
+        /// </summary>
         private System.Windows.Forms.ToolStripMenuItem onTopToolStripMenuItem;
+        /// <summary>
+        /// The transparent tool strip menu item
+        /// </summary>
         private System.Windows.Forms.ToolStripMenuItem transparentToolStripMenuItem;
     }
 }

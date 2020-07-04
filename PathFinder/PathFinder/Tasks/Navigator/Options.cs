@@ -1,7 +1,9 @@
 ﻿// *********************************************************************** Assembly : PathFinder
-// Author : xenonsmurf Created : 04-03-2020 Created : 04-03-2020 Created : 04-03-2020 Created : 04-03-2020
+// Author : xenonsmurf Created : 04-03-2020 Created : 04-03-2020 Created : 04-03-2020 Created :
+// Created : 04-03-2020 Created : 04-03-2020 Created : 04-03-2020 Created :
 //
-// Last Modified By : xenonsmurf Last Modified On : 04-04-2020 Last Modified On : 04-12-2020 ***********************************************************************
+// Last Modified By : xenonsmurf Last Modified On : 04-04-2020 Last Modified On : 04-12-2020 Last
+// Modified On : 07-04-2020 ***********************************************************************
 // <copyright file="Options.cs" company="Xenonsmurf">
 //     Copyright © 2020
 // </copyright>
@@ -106,6 +108,10 @@ namespace PathFinder.Tasks.Nav
         /// <value>The destination.</value>
         public position_t Destination { get; set; }
 
+        /// <summary>
+        /// Gets or sets a value indicating whether [stop running].
+        /// </summary>
+        /// <value><c>true</c> if [stop running]; otherwise, <c>false</c>.</value>
         public bool StopRunning { get; set; } = false;
     }
 }

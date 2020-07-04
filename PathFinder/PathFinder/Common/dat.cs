@@ -1,7 +1,7 @@
 ﻿// *********************************************************************** Assembly : PathFinder
-// Author : vulture Created : 04-10-2020
+// Author : vulture Created : 04-10-2020 Created : 04-10-2020 Created : 04-10-2020 Created : 04-10-2020
 //
-// Last Modified By : xenonsmurf Last Modified On : 04-12-2020 ***********************************************************************
+// Last Modified By : xenonsmurf Last Modified On : 04-12-2020 Last Modified On : 07-04-2020 ***********************************************************************
 // <copyright file="dat.cs" company="Xenonsmurf">
 //     Copyright © 2020
 // </copyright>
@@ -293,12 +293,16 @@ namespace PathFinder.Common
         /// <value>The s.</value>
         public FileStream s { get; set; }
 
+        /// <summary>
+        /// Gets or sets the br.
+        /// </summary>
+        /// <value>The br.</value>
         public BinaryReader br { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="DAT"/> class.
         /// </summary>
-        /// <param name="args">The arguments.</param>
+        /// <param name="s">The s.</param>
         public DAT(Stream s)
         {
             Chunks.Clear();
@@ -573,8 +577,8 @@ namespace PathFinder.Common
             // map
 
             int meshoffset = BitConverter.ToInt32(c.data, 8);           // stores info about the collision mesh
-            int gridwidth = 10 * c.data[0x0c];  // stored div 10
-            int gridheight = 10 * c.data[0x0d];
+            int gridwidth = 20 * c.data[0x0c];  // stored div 10
+            int gridheight = 20 * c.data[0x0d];
             int bucketwidth = c.data[0x0e];     // almost always 40?
             int bucketheight = c.data[0x0f];    // stored mul 10; so 40 = 4 yalms; probably baked in so gridwidth*bucketwidth = mapwidth
             int quadtreeoffset = BitConverter.ToInt32(c.data, 0x10);
@@ -616,17 +620,25 @@ namespace PathFinder.Common
 
             // this loop populates global AllVertices AllNormals AllTriangles (sorry for statics; if you plan on using this for more than one map at a time, rewrite to be less staticy)
             //Console.WriteLine("grid:");
-            for (int y = 0; y < gridheight; y++)
+            try
             {
-                for (int x = 0; x < gridwidth; x++)
+                int offs = 0;
+                int entryoffs = 0;
+                for (int y = 0; y < gridheight; y++)
                 {
-                    int offs = (y * gridwidth + x) * 4;
-                    int entryoffs = BitConverter.ToInt32(c.data, gridoffset + offs);
-                    if (entryoffs != 0) ParseGridEntry(c.data, entryoffs, x, y);
-                    AddByteCover("grid", gridoffset + offs, 4);
+                    for (int x = 0; x < gridwidth; x++)
+                    {
+                        offs = (y * gridwidth + x) * 4;
+                        entryoffs = BitConverter.ToInt32(c.data, gridoffset + offs);
+                        if (entryoffs != 0 && entryoffs! < 0) ParseGridEntry(c.data, entryoffs, x, y);
+                        AddByteCover("grid", gridoffset + offs, 4);
+                    }
                 }
             }
-
+            catch (Exception ex)
+            {
+                Char.Logger.AddDebugText(Char.Tc.rtbDebug, ex.ToString());
+            }
 #if WRITE_COLLISION_MESH_TO_DISK
             // write out the collision mesh in some format
             using (var sw = new StreamWriter(string.Format(@"Map Collision obj\{0}.obj", FileName)))

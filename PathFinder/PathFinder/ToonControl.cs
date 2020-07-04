@@ -1,39 +1,35 @@
-﻿// ***********************************************************************
-// Assembly         : PathFinder
-// Author           : xenonsmurf Created : 03-16-2020 Created : 03-16-2020
-// Created          : 03-16-2020 Created : 03-16-2020
+﻿// *********************************************************************** Assembly : PathFinder
+// Author : xenonsmurf Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020 Created :
+// 03-16-2020 Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020
 //
-// Last Modified By : xenonsmurf Last Modified On : 04-04-2020
-// Last Modified On : 04-12-2020
-// ***********************************************************************
+// Last Modified By : xenonsmurf Last Modified On : 04-04-2020 Last Modified On : 04-12-2020
+// *********************************************************************** Last Modified On :
+// 07-04-2020 ***********************************************************************
 // <copyright file="ToonControl.cs" company="Xenonsmurf">
 //     Copyright © 2020
 // </copyright>
-// <summary></summary>
+// <summary>
+// </summary>
 // ***********************************************************************
 using EliteMMO.API;
 using PathFinder.Characters;
 using PathFinder.Common;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
-using System.Runtime.CompilerServices;
+using System.IO.Compression;
+using System.Net;
 using System.Threading;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
-using System.Net;
-using System.ComponentModel;
-using System.Threading.Tasks;
-using System.IO.Compression;
-using System.Linq;
 
 namespace PathFinder
 {
     /// <summary>
-    /// Class ToonControl. Implements the <see cref="System.Windows.Forms.UserControl" />
+    /// Class ToonControl. Implements the <see cref="System.Windows.Forms.UserControl"/>
     /// </summary>
-    /// <seealso cref="System.Windows.Forms.UserControl" />
+    /// <seealso cref="System.Windows.Forms.UserControl"/>
     public partial class ToonControl : UserControl
     {
         /// <summary>
@@ -43,7 +39,7 @@ namespace PathFinder
         public Character Character { get; set; }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="ToonControl" /> class.
+        /// Initializes a new instance of the <see cref="ToonControl"/> class.
         /// </summary>
         /// <param name="mf">The mf.</param>
         /// <param name="chars">The chars.</param>
@@ -58,7 +54,7 @@ namespace PathFinder
         /// Handles the TextChanged event of the rtbDebug control.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void rtbDebug_TextChanged(object sender, EventArgs e)
         {
             rtbDebug.SelectionStart = rtbDebug.Text.Length;
@@ -75,7 +71,7 @@ namespace PathFinder
         /// Handles the Click event of the button13 control.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void button13_Click(object sender, EventArgs e)
         {
             Character.Tasks.NavTask.Options.Ppoint.ID = Character.Api.Player.ZoneId;
@@ -93,7 +89,7 @@ namespace PathFinder
         /// Handles the Click event of the saveHitPointsToolStripMenuItem control.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void saveHitPointsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Character.SavePointsOfInterest();
@@ -103,7 +99,7 @@ namespace PathFinder
         /// Handles the Click event of the loadHitPointToolStripMenuItem control.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void loadHitPointToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Character.LoadPointsOfInterest();
@@ -113,7 +109,7 @@ namespace PathFinder
         /// Handles the SelectedIndexChanged event of the PointsComboBox control.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void PointsComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (Character.Tasks.NavTask.Options.Points.Count > 0)
@@ -144,7 +140,7 @@ namespace PathFinder
         /// Handles the Click event of the RunBtn control.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void RunBtn_Click(object sender, EventArgs e)
         {
             if (RunBtn.Text == "Start" && !Character.Tasks.NavTask.IsBusy)
@@ -162,8 +158,8 @@ namespace PathFinder
                 Character.FFxiNAV.Waypoints.Clear();
                 Character.Tasks.NavTask.Options.WayPoints.Clear();
                 Character.Tasks.NavTask.Options.StopRunning = true;
-              //  Character.Api.AutoFollow.IsAutoFollowing = false;
-              //  Character.Api.AutoFollow.SetAutoFollowCoords(0, 0, 0);
+                Character.Api.AutoFollow.IsAutoFollowing = false;
+                // Character.Api.AutoFollow.SetAutoFollowCoords(0, 0, 0);
                 RunBtn.Text = "Start";
                 Thread.Sleep(200);
                 Character.Navi.Reset();
@@ -178,7 +174,7 @@ namespace PathFinder
                 Character.FFxiNAV.Waypoints.Clear();
                 Character.Tasks.NavTask.Options.WayPoints.Clear();
                 Character.Tasks.NavTask.Options.StopRunning = true;
-               // Character.Api.AutoFollow.IsAutoFollowing = false;
+                Character.Api.AutoFollow.IsAutoFollowing = false;
                 Character.Logger.AddDebugText(rtbDebug, "NavTask is busy. attempting to stop");
             }
         }
@@ -187,7 +183,7 @@ namespace PathFinder
         /// Handles the Click event of the button16 control.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void button16_Click(object sender, EventArgs e)
         {
             Character.Logger.AddDebugText(rtbDebug, string.Format(@"Points in navmesh path = {0}", Character.Tasks.NavTask.FFxiNav.PathCount().ToString()));
@@ -197,7 +193,7 @@ namespace PathFinder
         /// Handles the Click event of the button14 control.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void button14_Click(object sender, EventArgs e)
         {
             Character.LoadNavMesh();
@@ -207,7 +203,7 @@ namespace PathFinder
         /// Handles the Click event of the button15 control.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void button15_Click(object sender, EventArgs e)
         {
             Character.Logger.AddDebugText(rtbDebug, string.Format(@"NavMesh is enabled = {0}", Character.Tasks.NavTask.FFxiNav.IsNavMeshEnabled().ToString()));
@@ -217,7 +213,7 @@ namespace PathFinder
         /// Handles the Click event of the button12 control.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void button12_Click(object sender, EventArgs e)
         {
             Character.FFxiNAV.GetWaypoints();
@@ -236,7 +232,7 @@ namespace PathFinder
         /// Handles the Click event of the button17 control.
         /// </summary>
         /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="EventArgs" /> instance containing the event data.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void button17_Click(object sender, EventArgs e)
         {
             Character.Logger.AddDebugText(rtbDebug, string.Format("Looking for path"));
@@ -276,74 +272,135 @@ namespace PathFinder
             Character.ExportSingleMapData(mapLB.SelectedItem.ToString());
         }
 
+        /// <summary>
+        /// The old string
+        /// </summary>
+        private string OldString;
 
-        string OldString;
-        string NewString;
-        string OldZone;
-        string NewZone;
+        /// <summary>
+        /// Creates new string.
+        /// </summary>
+        private string NewString;
+
+        /// <summary>
+        /// The old zone
+        /// </summary>
+        private string OldZone;
+
+        /// <summary>
+        /// Creates new zone.
+        /// </summary>
+        private string NewZone;
+
+        /// <summary>
+        /// The old mesh edge distance
+        /// </summary>
+        public double OldMeshEdgeDistance;
+
+        /// <summary>
+        /// Creates new meshedgedistance.
+        /// </summary>
+        public double NewMeshEdgeDistance;
+
+        private bool ShowMsg { get; set; } = true;
+
+        /// <summary>
+        /// Handles the Tick event of the timer control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void timer_Tick(object sender, EventArgs e)
         {
-            NewString = Character.FFxiNAV.GetErrorMessage();
-            if (OldString != NewString)
+            try
             {
-                Character.Logger.AddDebugText(this.rtbDebug, NewString);
-                OldString = Character.FFxiNAV.GetErrorMessage();
-            }
-            var path = string.Format(Application.StartupPath + "\\Dumped NavMeshes\\");
-            int fCount = Directory.GetFiles(path, "*", SearchOption.TopDirectoryOnly).Length;
-            if( fCount == 0)
-            {
-                Character.Logger.AddDebugText(this.rtbDebug, "No NavMesh files found... Downloading...");
-
-                // https://github.com/xenonsmurf/FFXINavMeshes/archive/master.zip
-
-                WebClient webClient = new WebClient();
-                webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(Completed);
-                webClient.DownloadFileAsync(new Uri("https://github.com/xenonsmurf/FFXINavMeshes/archive/master.zip"),
-                    string.Format(@"{0}\\master.zip",path));
-            }
-
-            if (fCount > 1 && !Character.Zoning() && Character.Api.Player.ZoneId != 0)
-            {
-                NewZone = string.Format(@"Zone id = {0}", Character.Api.Player.ZoneId.ToString());
-                if (OldZone != NewZone)
+                NewString = Character.FFxiNAV.GetErrorMessage();
+                if (OldString != NewString)
                 {
-                    Character.Logger.AddDebugText(this.rtbDebug, NewZone);
-                    OldZone = string.Format(@"Zone id = {0}", Character.Api.Player.ZoneId.ToString());
-                    if (fCount > 0)
+                    Character.Logger.AddDebugText(this.rtbDebug, NewString);
+                    OldString = Character.FFxiNAV.GetErrorMessage();
+                }
+                if (Character.FFxiNAV.Waypoints.Count > 0 && Character.Tasks.NavTask.IsBusy)
+                {
+                    var PlayerPos = new position_t { X = Character.Api.Player.X, Y = Character.Api.Player.Y, Z = Character.Api.Player.Z, Moving = 0, Rotation = 0 };
+                    NewMeshEdgeDistance = Character.FFxiNAV.DistanceToWall(PlayerPos);
+                    if (OldMeshEdgeDistance != NewMeshEdgeDistance)
                     {
-                        Character.FFxiNAV.Unload();
-
-                        var NavFile = string.Format(Application.StartupPath + "\\Dumped NavMeshes\\{0}.nav", Character.Api.Player.ZoneId);
-                        if (File.Exists(NavFile))
-                        {
-                            Character.FFxiNAV.Load(NavFile);
-
-                        }
-                        else
-                            Character.Logger.AddDebugText(this.rtbDebug, "Unable to load NavMesh for current Zone");
+                        OldMeshEdgeDistance = Character.FFxiNAV.DistanceToWall(PlayerPos);
+                        Character.Logger.AddDebugText(this.rtbDebug, string.Format(@"Player Distance from NavMesh Edge = {0}", OldMeshEdgeDistance.ToString()));
                     }
+                }
 
+                var path = string.Format(Application.StartupPath + "\\Dumped NavMeshes\\");
+                int fCount = Directory.GetFiles(path, "*", SearchOption.TopDirectoryOnly).Length;
 
-
-                    if (PointsComboBox.Items.Count > 0)
+                if (fCount == 0)
+                {
+                    if (ShowMsg)
                     {
-                        PointsComboBox.Items.Clear();
-
-                        foreach (var item in Character.Tasks.NavTask.Options.Points)
+                        ShowMsg = false;
+                        if (MessageBox.Show("NavMesh files are missing!, do you want to download them from GitHub?", "Alert", MessageBoxButtons.YesNo) == DialogResult.Yes)
                         {
-                            if (item.ID == Character.Api.Player.ZoneId)
+                            Character.Logger.AddDebugText(this.rtbDebug, "No NavMesh files found... Downloading...");
+
+                            // https://github.com/xenonsmurf/FFXINavMeshes/archive/master.zip
+
+                            WebClient webClient = new WebClient();
+                            webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(Completed);
+                            webClient.DownloadFileAsync(new Uri("https://github.com/xenonsmurf/FFXINavMeshes/archive/master.zip"),
+                                string.Format(@"{0}\\master.zip", path));
+                        }
+                    }
+                }
+
+                if (fCount > 1 && !Character.Zoning() && Character.Api.Player.ZoneId != 0)
+                {
+                    NewZone = string.Format(@"Zone id = {0}", Character.Api.Player.ZoneId.ToString());
+                    if (OldZone != NewZone)
+                    {
+                        Character.Logger.AddDebugText(this.rtbDebug, NewZone);
+                        OldZone = string.Format(@"Zone id = {0}", Character.Api.Player.ZoneId.ToString());
+                        if (fCount > 0)
+                        {
+                            Character.FFxiNAV.Unload();
+
+                            var NavFile = string.Format(Application.StartupPath + "\\Dumped NavMeshes\\{0}.nav", Character.Api.Player.ZoneId);
+                            if (File.Exists(NavFile))
                             {
-                                PointsComboBox.Items.Add(item.Name);
-                              
+                                Character.FFxiNAV.Load(NavFile);
                             }
+                            else
+                                Character.Logger.AddDebugText(this.rtbDebug, "Unable to load NavMesh for current Zone");
                         }
-                        PointsComboBox.SelectedIndex = 1;
-                    }
 
+                        if (PointsComboBox.Items.Count > 0)
+                        {
+                            PointsComboBox.Items.Clear();
+
+                            foreach (var item in Character.Tasks.NavTask.Options.Points)
+                            {
+                                if (item.ID == Character.Api.Player.ZoneId)
+                                {
+                                    PointsComboBox.Items.Add(item.Name);
+                                }
+                            }
+                            PointsComboBox.SelectedIndex = 1;
+                        }
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                Character.Logger.AddDebugText(rtbDebug, ex.ToString());
+            }
         }
+
+        /// <summary>
+        /// Completeds the specified sender.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">
+        /// The <see cref="AsyncCompletedEventArgs"/> instance containing the event data.
+        /// </param>
         private void Completed(object sender, AsyncCompletedEventArgs e)
         {
             try
@@ -357,13 +414,12 @@ namespace PathFinder
                 ZipFile.ExtractToDirectory(zipPath, extractPath);
                 Character.Logger.AddDebugText(this.rtbDebug, "Extraction complete");
                 Character.Logger.AddDebugText(this.rtbDebug, "Moving files to NavMesh folder");
-                foreach (var file in Directory.EnumerateFiles(string.Format(@"{0}{1}",path, "FFXINavMeshes-master")))
+                foreach (var file in Directory.EnumerateFiles(string.Format(@"{0}{1}", path, "FFXINavMeshes-master")))
                 {
                     string destFile = Path.Combine(path, Path.GetFileName(file));
 
                     if (!File.Exists(destFile))
                         File.Move(file, destFile);
-
                 }
                 Character.Logger.AddDebugText(this.rtbDebug, "Moved files, Deleting crap.");
                 foreach (string file in Directory.GetFiles(path))
@@ -383,8 +439,13 @@ namespace PathFinder
             {
                 Character.Logger.AddDebugText(this.rtbDebug, ex.ToString());
             }
-
         }
+
+        /// <summary>
+        /// Handles the Click event of the button3 control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void button3_Click(object sender, EventArgs e)
         {
             OpenFileDialog OpenDialog = new OpenFileDialog();
@@ -394,41 +455,54 @@ namespace PathFinder
 
             if (OpenDialog.ShowDialog() == DialogResult.OK)
             {
-
                 string ZoneFilename = OpenDialog.FileName;
                 Character.Logger.AddDebugText(rtbDebug, string.Format(@"Obj File Selected = {0}", ZoneFilename));
                 try
                 {
                     Stopwatch stopWatch = new Stopwatch();
-                    stopWatch.Start();
+
                     string result;
                     result = Path.GetFileName(ZoneFilename);
                     string result2 = result.Substring(0, result.LastIndexOf(".") + 1);
-                    string str = string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2);
                     if (File.Exists(string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2)))
                     {
+                        if (MessageBox.Show(string.Format(@"Are you sure you want to overwrite {0}.nav", result2.ToString()), "Alert", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                        {
+                            Character.Logger.AddDebugText(rtbDebug, string.Format(@"Dumping NavMesh for {0}", result));
+                            Thread.Sleep(100);
+                            if (!Character.FFxiNAV.DumpingMesh)
+                            {
+                                Stopwatch stopWatch2 = new Stopwatch();
+                                stopWatch.Start();
+                                Character.FFxiNAV.Dump_NavMesh(ZoneFilename);
+                                stopWatch.Stop();
+                                TimeSpan ts2 = stopWatch.Elapsed;
 
-                        Character.Logger.AddDebugText(rtbDebug, string.Format(@"File exisits already  {0}nav", result2));
-
-                        Character.Logger.AddDebugText(rtbDebug, string.Format(@"Deleting old mesh {0}", result));
-                        File.Delete(str);
+                                // Format and display the TimeSpan value.
+                                string elapsedTime2 = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
+                                    ts2.Hours, ts2.Minutes, ts2.Seconds,
+                                    ts2.Milliseconds / 10);
+                                Character.Logger.AddDebugText(rtbDebug, string.Format(@"Time Taken to dump mesh = " + elapsedTime2));
+                            }
+                        }
                     }
                     if (!File.Exists(string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2)))
                     {
+                        stopWatch.Start();
                         Character.Logger.AddDebugText(rtbDebug, string.Format(@"Dumping NavMesh for {0}", ZoneFilename));
                         Character.FFxiNAV.Dump_NavMesh(ZoneFilename);
+
+                        stopWatch.Stop();
+                        TimeSpan ts = stopWatch.Elapsed;
+
+                        // Format and display the TimeSpan value.
+                        string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
+                            ts.Hours, ts.Minutes, ts.Seconds,
+                            ts.Milliseconds / 10);
+
+                        Character.Logger.AddDebugText(rtbDebug, string.Format(@"Finished dumping NavMesh for {0}", ZoneFilename));
+                        Character.Logger.AddDebugText(rtbDebug, string.Format(@"Time Taken to dump NavMesh = " + elapsedTime));
                     }
-
-                    stopWatch.Stop();
-                    TimeSpan ts = stopWatch.Elapsed;
-
-                    // Format and display the TimeSpan value.
-                    string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-                        ts.Hours, ts.Minutes, ts.Seconds,
-                        ts.Milliseconds / 10);
-
-                    Character.Logger.AddDebugText(rtbDebug, string.Format(@"Finished dumping NavMesh for {0}", ZoneFilename));
-                    Character.Logger.AddDebugText(rtbDebug, string.Format(@"Time Taken to dump NavMesh = " + elapsedTime));
                 }
                 catch (Exception ex)
                 {
@@ -437,6 +511,11 @@ namespace PathFinder
             }
         }
 
+        /// <summary>
+        /// Handles the KeyPress event of the CSTB control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="KeyPressEventArgs"/> instance containing the event data.</param>
         private void CSTB_KeyPress(object sender, KeyPressEventArgs e)
         {
             // Verify that the pressed key isn't CTRL or any non-numeric digit
@@ -452,6 +531,11 @@ namespace PathFinder
             }
         }
 
+        /// <summary>
+        /// Handles the KeyPress event of the CHTB control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="KeyPressEventArgs"/> instance containing the event data.</param>
         private void CHTB_KeyPress(object sender, KeyPressEventArgs e)
         {
             // Verify that the pressed key isn't CTRL or any non-numeric digit
@@ -467,6 +551,11 @@ namespace PathFinder
             }
         }
 
+        /// <summary>
+        /// Handles the KeyPress event of the AHTB control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="KeyPressEventArgs"/> instance containing the event data.</param>
         private void AHTB_KeyPress(object sender, KeyPressEventArgs e)
         {
             // Verify that the pressed key isn't CTRL or any non-numeric digit
@@ -482,6 +571,11 @@ namespace PathFinder
             }
         }
 
+        /// <summary>
+        /// Handles the KeyPress event of the ARTB control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="KeyPressEventArgs"/> instance containing the event data.</param>
         private void ARTB_KeyPress(object sender, KeyPressEventArgs e)
         {
             // Verify that the pressed key isn't CTRL or any non-numeric digit
@@ -497,6 +591,11 @@ namespace PathFinder
             }
         }
 
+        /// <summary>
+        /// Handles the KeyPress event of the MCTB control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="KeyPressEventArgs"/> instance containing the event data.</param>
         private void MCTB_KeyPress(object sender, KeyPressEventArgs e)
         {
             // Verify that the pressed key isn't CTRL or any non-numeric digit
@@ -512,6 +611,11 @@ namespace PathFinder
             }
         }
 
+        /// <summary>
+        /// Handles the KeyPress event of the MSTB control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="KeyPressEventArgs"/> instance containing the event data.</param>
         private void MSTB_KeyPress(object sender, KeyPressEventArgs e)
         {
             // Verify that the pressed key isn't CTRL or any non-numeric digit
@@ -527,6 +631,11 @@ namespace PathFinder
             }
         }
 
+        /// <summary>
+        /// Handles the KeyPress event of the TSTB control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="KeyPressEventArgs"/> instance containing the event data.</param>
         private void TSTB_KeyPress(object sender, KeyPressEventArgs e)
         {
             // Verify that the pressed key isn't CTRL or any non-numeric digit
@@ -542,6 +651,11 @@ namespace PathFinder
             }
         }
 
+        /// <summary>
+        /// Handles the Click event of the button4 control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void button4_Click(object sender, EventArgs e)
         {
             try
@@ -553,7 +667,14 @@ namespace PathFinder
                 double MC = Convert.ToDouble(MCTB.Text);
                 double MS = Convert.ToDouble(MSTB.Text);
                 double TS = Convert.ToDouble(TSTB.Text);
-                Character.FFxiNAV.ChangeNavMeshSettings(CS, CH, AH, AR, MC, MS, TS);
+                double Rs = Convert.ToDouble(RMinS.Text);
+                double Rms = Convert.ToDouble(RMS.Text);
+                double EML = Convert.ToDouble(EMaxL.Text);
+                double Em = Convert.ToDouble(EmE.Text);
+                double Vpp = Convert.ToDouble(vPP.Text);
+                double Dsd = Convert.ToDouble(DSD.Text);
+                double Dsm = Convert.ToDouble(DsM.Text);
+                Character.FFxiNAV.ChangeNavMeshSettings(CS, CH, AH, AR, MC, MS, TS, Rs, Rms, EML, Em, Vpp, Dsd, Dsm);
                 Character.Logger.AddDebugText(rtbDebug, "NavMesh Settings changed.");
             }
             catch (Exception es)
@@ -562,34 +683,42 @@ namespace PathFinder
             }
         }
 
+        /// <summary>
+        /// Handles the Click event of the button5 control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void button5_Click(object sender, EventArgs e)
         {
-          
-                if (button5.Text == "Start dumping all zone.obj file navmeshes" && !DumpMeshes.IsBusy)
-                {
-                    button5.Text = "Stop dumping all zone.obj file navmeshes";
-                    Thread.Sleep(100);
-                    DumpMeshes.RunWorkerAsync();
-                }
-               else if (button5.Text == "Stop dumping all zone.obj file navmeshes")
-                {
-                    DumpMeshes.CancelAsync();
-                    Thread.Sleep(200);
-                    button5.Text = "Start dumping all zone.obj file navmeshes";
-                    Thread.Sleep(200);
-                }
-                else if (button5.Text == "Stop dumping all zone.obj file navmeshes" && DumpMeshes.IsBusy)
-                {
-                    DumpMeshes.CancelAsync();
-                    Thread.Sleep(200);
-                    button5.Text = "Start dumping all zone.obj file navmeshes";
-                    Thread.Sleep(200);
-                }
-
+            if (button5.Text == "Start dumping all zone.obj file navmeshes" && !DumpMeshes.IsBusy)
+            {
+                button5.Text = "Stop dumping all zone.obj file navmeshes";
+                Thread.Sleep(100);
+                DumpMeshes.RunWorkerAsync();
+            }
+            else if (button5.Text == "Stop dumping all zone.obj file navmeshes")
+            {
+                DumpMeshes.CancelAsync();
+                Thread.Sleep(200);
+                button5.Text = "Start dumping all zone.obj file navmeshes";
+                Thread.Sleep(200);
+            }
+            else if (button5.Text == "Stop dumping all zone.obj file navmeshes" && DumpMeshes.IsBusy)
+            {
+                DumpMeshes.CancelAsync();
+                Thread.Sleep(200);
+                button5.Text = "Start dumping all zone.obj file navmeshes";
+                Thread.Sleep(200);
+            }
         }
 
-  
-
+        /// <summary>
+        /// Handles the DoWork event of the DumpMeshes control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">
+        /// The <see cref="System.ComponentModel.DoWorkEventArgs"/> instance containing the event data.
+        /// </param>
         private void DumpMeshes_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
             try
@@ -597,7 +726,6 @@ namespace PathFinder
                 {
                     while (!DumpMeshes.CancellationPending)
                     {
-                     
                         string path = string.Format("{0}\\Map Collision obj\\", Application.StartupPath);
                         int fileCount = Directory.GetFiles(path, "*.obj", SearchOption.AllDirectories).Length;
                         Character.Logger.AddDebugText(rtbDebug, string.Format(@"{0}.obj files fould in Map Collision obj folder", fileCount.ToString()));
@@ -606,13 +734,29 @@ namespace PathFinder
                             string result;
                             result = Path.GetFileName(file);
                             string result2 = result.Substring(0, result.LastIndexOf(".") + 1);
-                            string str = string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2);
-                            if (!File.Exists(string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2)))
+                            if (File.Exists(string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2)))
                             {
-                                Character.Logger.AddDebugText(rtbDebug, string.Format(@"Deleting old mesh {0}", result));
-                                File.Delete(str);
+                                if (MessageBox.Show(string.Format(@"Are you sure you want to overwrite {0}.nav", result2.ToString()), "Alert", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                                {
+                                    Character.Logger.AddDebugText(rtbDebug, string.Format(@"Dumping NavMesh for {0}", result));
+                                    Thread.Sleep(100);
+                                    if (!Character.FFxiNAV.DumpingMesh)
+                                    {
+                                        Stopwatch stopWatch = new Stopwatch();
+                                        stopWatch.Start();
+                                        Character.FFxiNAV.Dump_NavMesh(file);
+                                        stopWatch.Stop();
+                                        TimeSpan ts = stopWatch.Elapsed;
+
+                                        // Format and display the TimeSpan value.
+                                        string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
+                                            ts.Hours, ts.Minutes, ts.Seconds,
+                                            ts.Milliseconds / 10);
+                                        Character.Logger.AddDebugText(rtbDebug, string.Format(@"Time Taken to dump mesh = " + elapsedTime));
+                                    }
+                                }
                             }
-                                if (!File.Exists(string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2)))
+                            if (!File.Exists(string.Format(@"{0}\\Dumped NavMeshes\\{1}nav", Application.StartupPath, result2)))
                             {
                                 Character.Logger.AddDebugText(rtbDebug, string.Format(@"Dumping NavMesh for {0}", result));
                                 Thread.Sleep(100);
@@ -629,15 +773,11 @@ namespace PathFinder
                                         ts.Hours, ts.Minutes, ts.Seconds,
                                         ts.Milliseconds / 10);
                                     Character.Logger.AddDebugText(rtbDebug, string.Format(@"Time Taken to dump mesh = " + elapsedTime));
-                                  
-
-
                                 }
-
                             }
                         }
-                        
-                            DumpMeshes.CancelAsync();
+
+                        DumpMeshes.CancelAsync();
                     }
                 }
             }
@@ -647,6 +787,14 @@ namespace PathFinder
             }
         }
 
+        /// <summary>
+        /// Handles the RunWorkerCompleted event of the DumpMeshes control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">
+        /// The <see cref="System.ComponentModel.RunWorkerCompletedEventArgs"/> instance containing
+        /// the event data.
+        /// </param>
         private void DumpMeshes_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
         {
             Character.Logger.AddDebugText(rtbDebug, string.Format(@"No zone.obj files to dump meshes for, lets stop background worker."));
@@ -655,10 +803,14 @@ namespace PathFinder
             DumpMeshes.CancelAsync();
         }
 
+        /// <summary>
+        /// Handles the Click event of the button6 control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void button6_Click(object sender, EventArgs e)
         {
             Character.FFxiNAV.Unload();
         }
-       
     }
 }

@@ -1,7 +1,9 @@
 ﻿// *********************************************************************** Assembly : PathFinder
-// Author : xenonsmurf Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020
+// Author : xenonsmurf Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020 Created :
+// Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020 Created :
 //
-// Last Modified By : xenonsmurf Last Modified On : 03-29-2020 Last Modified On : 04-12-2020 ***********************************************************************
+// Last Modified By : xenonsmurf Last Modified On : 03-29-2020 Last Modified On : 04-12-2020 Last
+// Modified On : 07-04-2020 ***********************************************************************
 // <copyright file="MainForm.cs" company="Xenonsmurf">
 //     Copyright © 2020
 // </copyright>
@@ -173,6 +175,11 @@ namespace PathFinder
             }
         }
 
+        /// <summary>
+        /// Handles the Click event of the onTopToolStripMenuItem control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void onTopToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (onTopToolStripMenuItem.CheckState == System.Windows.Forms.CheckState.Checked)
@@ -183,6 +190,11 @@ namespace PathFinder
                 MainForm.ActiveForm.TopMost = false;
         }
 
+        /// <summary>
+        /// Handles the Click event of the transparentToolStripMenuItem control.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="EventArgs"/> instance containing the event data.</param>
         private void transparentToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (transparentToolStripMenuItem.CheckState == System.Windows.Forms.CheckState.Checked)

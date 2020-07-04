@@ -4,7 +4,7 @@
 // Created          : 03-16-2020
 //
 // Last Modified By : xenonsmurf
-// Last Modified On : 04-12-2020
+// Last Modified On : 07-04-2020
 // ***********************************************************************
 // <copyright file="ToonControl.Designer.cs" company="Xenonsmurf">
 //     Copyright ©  2020
@@ -17,6 +17,7 @@ namespace PathFinder
     /// Class ToonControl.
     /// Implements the <see cref="System.Windows.Forms.UserControl" />
     /// </summary>
+    /// <seealso cref="System.Windows.Forms.UserControl" />
     /// <seealso cref="System.Windows.Forms.UserControl" />
     partial class ToonControl
     {
@@ -75,25 +76,39 @@ namespace PathFinder
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.DsM = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.DSD = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.vPP = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.EmE = new System.Windows.Forms.TextBox();
+            this.CSTB = new System.Windows.Forms.TextBox();
+            this.EMaxL = new System.Windows.Forms.TextBox();
+            this.CHTB = new System.Windows.Forms.TextBox();
+            this.RMS = new System.Windows.Forms.TextBox();
+            this.AHTB = new System.Windows.Forms.TextBox();
+            this.RMinS = new System.Windows.Forms.TextBox();
+            this.ARTB = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.MCTB = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.MSTB = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.TSTB = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.TSTB = new System.Windows.Forms.TextBox();
-            this.MSTB = new System.Windows.Forms.TextBox();
-            this.MCTB = new System.Windows.Forms.TextBox();
-            this.ARTB = new System.Windows.Forms.TextBox();
-            this.AHTB = new System.Windows.Forms.TextBox();
-            this.CHTB = new System.Windows.Forms.TextBox();
-            this.CSTB = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.rtbDebug = new System.Windows.Forms.RichTextBox();
@@ -105,6 +120,7 @@ namespace PathFinder
             this.tabPage1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer
@@ -377,25 +393,9 @@ namespace PathFinder
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.groupBox1);
             this.tabPage2.Controls.Add(this.label16);
             this.tabPage2.Controls.Add(this.button5);
-            this.tabPage2.Controls.Add(this.label15);
-            this.tabPage2.Controls.Add(this.label12);
-            this.tabPage2.Controls.Add(this.TSTB);
-            this.tabPage2.Controls.Add(this.MSTB);
-            this.tabPage2.Controls.Add(this.MCTB);
-            this.tabPage2.Controls.Add(this.ARTB);
-            this.tabPage2.Controls.Add(this.AHTB);
-            this.tabPage2.Controls.Add(this.CHTB);
-            this.tabPage2.Controls.Add(this.CSTB);
-            this.tabPage2.Controls.Add(this.label11);
-            this.tabPage2.Controls.Add(this.label10);
-            this.tabPage2.Controls.Add(this.label8);
-            this.tabPage2.Controls.Add(this.label7);
-            this.tabPage2.Controls.Add(this.label6);
-            this.tabPage2.Controls.Add(this.label5);
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Controls.Add(this.button4);
             this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Controls.Add(this.button3);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
@@ -406,117 +406,235 @@ namespace PathFinder
             this.tabPage2.Text = "NavMesh";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // label16
+            // groupBox1
             // 
-            this.label16.AutoSize = true;
-            this.label16.ForeColor = System.Drawing.Color.Red;
-            this.label16.Location = new System.Drawing.Point(273, 187);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(504, 13);
-            this.label16.TabIndex = 34;
-            this.label16.Text = "<-- This will build and dump navmeshes for all obj files in the Map Collision obj" +
-    " folder... this will take hours!! ";
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.DsM);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Controls.Add(this.label23);
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.DSD);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label22);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.vPP);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.label15);
+            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.EmE);
+            this.groupBox1.Controls.Add(this.CSTB);
+            this.groupBox1.Controls.Add(this.EMaxL);
+            this.groupBox1.Controls.Add(this.CHTB);
+            this.groupBox1.Controls.Add(this.RMS);
+            this.groupBox1.Controls.Add(this.AHTB);
+            this.groupBox1.Controls.Add(this.RMinS);
+            this.groupBox1.Controls.Add(this.ARTB);
+            this.groupBox1.Controls.Add(this.label21);
+            this.groupBox1.Controls.Add(this.MCTB);
+            this.groupBox1.Controls.Add(this.label20);
+            this.groupBox1.Controls.Add(this.MSTB);
+            this.groupBox1.Controls.Add(this.label19);
+            this.groupBox1.Controls.Add(this.TSTB);
+            this.groupBox1.Controls.Add(this.label18);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.Color.Red;
+            this.groupBox1.Location = new System.Drawing.Point(3, 3);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(786, 177);
+            this.groupBox1.TabIndex = 49;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "These are the default settings i dumped meshes with";
             // 
-            // button5
+            // label4
             // 
-            this.button5.Location = new System.Drawing.Point(18, 182);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(240, 23);
-            this.button5.TabIndex = 33;
-            this.button5.Text = "Start dumping all zone.obj file navmeshes";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(6, 26);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(68, 13);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "CellSize     = ";
             // 
-            // label15
+            // DsM
             // 
-            this.label15.AutoSize = true;
-            this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label15.Location = new System.Drawing.Point(398, 47);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(213, 13);
-            this.label15.TabIndex = 32;
-            this.label15.Text = "<-- These are the default NavMesh Settings";
+            this.DsM.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DsM.ForeColor = System.Drawing.Color.Black;
+            this.DsM.Location = new System.Drawing.Point(667, 48);
+            this.DsM.MaxLength = 6;
+            this.DsM.Name = "DsM";
+            this.DsM.Size = new System.Drawing.Size(46, 20);
+            this.DsM.TabIndex = 48;
+            this.DsM.Text = "1.0";
+            this.DsM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(6, 52);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(67, 13);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "CellHeight = ";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label12.Location = new System.Drawing.Point(169, 129);
+            this.label12.Location = new System.Drawing.Point(160, 152);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(540, 13);
+            this.label12.Size = new System.Drawing.Size(422, 13);
             this.label12.TabIndex = 31;
-            this.label12.Text = "<-- Click to change NavMesh Settings to the above settings.  you don\'t need to do" +
-    " this. just added it as an option.";
+            this.label12.Text = "<< click this button to change the Navmesh settings,  the above settings are the " +
+    "default.";
             // 
-            // TSTB
+            // label23
             // 
-            this.TSTB.Location = new System.Drawing.Point(321, 67);
-            this.TSTB.MaxLength = 6;
-            this.TSTB.Name = "TSTB";
-            this.TSTB.Size = new System.Drawing.Size(46, 20);
-            this.TSTB.TabIndex = 30;
-            this.TSTB.Text = "48";
-            this.TSTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TSTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TSTB_KeyPress);
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.Black;
+            this.label23.Location = new System.Drawing.Point(523, 49);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(138, 13);
+            this.label23.TabIndex = 47;
+            this.label23.Text = "Detail Sample MaxError    = ";
             // 
-            // MSTB
+            // button4
             // 
-            this.MSTB.Location = new System.Drawing.Point(321, 41);
-            this.MSTB.MaxLength = 6;
-            this.MSTB.Name = "MSTB";
-            this.MSTB.Size = new System.Drawing.Size(46, 20);
-            this.MSTB.TabIndex = 29;
-            this.MSTB.Text = "46";
-            this.MSTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.MSTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.MSTB_KeyPress);
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(9, 146);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(145, 23);
+            this.button4.TabIndex = 16;
+            this.button4.Text = "Change NavMesh Settings";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // MCTB
+            // label6
             // 
-            this.MCTB.Location = new System.Drawing.Point(321, 15);
-            this.MCTB.MaxLength = 6;
-            this.MCTB.Name = "MCTB";
-            this.MCTB.Size = new System.Drawing.Size(46, 20);
-            this.MCTB.TabIndex = 28;
-            this.MCTB.Text = "0.4";
-            this.MCTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.MCTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.MCTB_KeyPress);
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(157, 27);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(81, 13);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "AgentHeight  = ";
             // 
-            // ARTB
+            // DSD
             // 
-            this.ARTB.Location = new System.Drawing.Point(102, 96);
-            this.ARTB.MaxLength = 6;
-            this.ARTB.Name = "ARTB";
-            this.ARTB.Size = new System.Drawing.Size(46, 20);
-            this.ARTB.TabIndex = 27;
-            this.ARTB.Text = "0.6";
-            this.ARTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.ARTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ARTB_KeyPress);
+            this.DSD.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DSD.ForeColor = System.Drawing.Color.Black;
+            this.DSD.Location = new System.Drawing.Point(667, 24);
+            this.DSD.MaxLength = 6;
+            this.DSD.Name = "DSD";
+            this.DSD.Size = new System.Drawing.Size(46, 20);
+            this.DSD.TabIndex = 46;
+            this.DSD.Text = "6.0";
+            this.DSD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // AHTB
+            // label7
             // 
-            this.AHTB.Location = new System.Drawing.Point(102, 70);
-            this.AHTB.MaxLength = 6;
-            this.AHTB.Name = "AHTB";
-            this.AHTB.Size = new System.Drawing.Size(46, 20);
-            this.AHTB.TabIndex = 26;
-            this.AHTB.Text = "1.8";
-            this.AHTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.AHTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.AHTB_KeyPress);
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(158, 52);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(80, 13);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "AgentRadius = ";
             // 
-            // CHTB
+            // label22
             // 
-            this.CHTB.Location = new System.Drawing.Point(102, 44);
-            this.CHTB.MaxLength = 6;
-            this.CHTB.Name = "CHTB";
-            this.CHTB.Size = new System.Drawing.Size(46, 20);
-            this.CHTB.TabIndex = 25;
-            this.CHTB.Text = "0.075";
-            this.CHTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.CHTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CHTB_KeyPress);
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.Black;
+            this.label22.Location = new System.Drawing.Point(523, 27);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(138, 13);
+            this.label22.TabIndex = 45;
+            this.label22.Text = "Detail Sample Distance    = ";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(158, 77);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(76, 13);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "MaxClimb      =";
+            // 
+            // vPP
+            // 
+            this.vPP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vPP.ForeColor = System.Drawing.Color.Black;
+            this.vPP.Location = new System.Drawing.Point(457, 123);
+            this.vPP.MaxLength = 6;
+            this.vPP.Name = "vPP";
+            this.vPP.Size = new System.Drawing.Size(46, 20);
+            this.vPP.TabIndex = 44;
+            this.vPP.Text = "6.0";
+            this.vPP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(160, 104);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(75, 13);
+            this.label10.TabIndex = 22;
+            this.label10.Text = "MaxSlope    = ";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Black;
+            this.label15.Location = new System.Drawing.Point(329, 126);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(106, 13);
+            this.label15.TabIndex = 43;
+            this.label15.Text = "Verts Per Poly        = ";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(6, 75);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(68, 13);
+            this.label11.TabIndex = 23;
+            this.label11.Text = "TileSize     = ";
+            // 
+            // EmE
+            // 
+            this.EmE.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmE.ForeColor = System.Drawing.Color.Black;
+            this.EmE.Location = new System.Drawing.Point(457, 98);
+            this.EmE.MaxLength = 6;
+            this.EmE.Name = "EmE";
+            this.EmE.Size = new System.Drawing.Size(46, 20);
+            this.EmE.TabIndex = 42;
+            this.EmE.Text = "1.3";
+            this.EmE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // CSTB
             // 
-            this.CSTB.Location = new System.Drawing.Point(102, 18);
+            this.CSTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CSTB.ForeColor = System.Drawing.Color.Black;
+            this.CSTB.Location = new System.Drawing.Point(78, 23);
             this.CSTB.MaxLength = 6;
             this.CSTB.Name = "CSTB";
             this.CSTB.Size = new System.Drawing.Size(46, 20);
@@ -525,84 +643,190 @@ namespace PathFinder
             this.CSTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CSTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CSTB_KeyPress);
             // 
-            // label11
+            // EMaxL
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(242, 70);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(56, 13);
-            this.label11.TabIndex = 23;
-            this.label11.Text = "TileSize = ";
+            this.EMaxL.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EMaxL.ForeColor = System.Drawing.Color.Black;
+            this.EMaxL.Location = new System.Drawing.Point(457, 74);
+            this.EMaxL.MaxLength = 6;
+            this.EMaxL.Name = "EMaxL";
+            this.EMaxL.Size = new System.Drawing.Size(46, 20);
+            this.EMaxL.TabIndex = 41;
+            this.EMaxL.Text = "12.0";
+            this.EMaxL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label10
+            // CHTB
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(242, 44);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(66, 13);
-            this.label10.TabIndex = 22;
-            this.label10.Text = "MaxSlope = ";
+            this.CHTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CHTB.ForeColor = System.Drawing.Color.Black;
+            this.CHTB.Location = new System.Drawing.Point(78, 49);
+            this.CHTB.MaxLength = 6;
+            this.CHTB.Name = "CHTB";
+            this.CHTB.Size = new System.Drawing.Size(46, 20);
+            this.CHTB.TabIndex = 25;
+            this.CHTB.Text = "0.075";
+            this.CHTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.CHTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CHTB_KeyPress);
             // 
-            // label8
+            // RMS
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(242, 18);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(61, 13);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "MaxClimb =";
+            this.RMS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RMS.ForeColor = System.Drawing.Color.Black;
+            this.RMS.Location = new System.Drawing.Point(457, 49);
+            this.RMS.MaxLength = 6;
+            this.RMS.Name = "RMS";
+            this.RMS.Size = new System.Drawing.Size(46, 20);
+            this.RMS.TabIndex = 40;
+            this.RMS.Text = "20";
+            this.RMS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label7
+            // AHTB
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(15, 99);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 13);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "AgentRadius = ";
+            this.AHTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AHTB.ForeColor = System.Drawing.Color.Black;
+            this.AHTB.Location = new System.Drawing.Point(244, 23);
+            this.AHTB.MaxLength = 6;
+            this.AHTB.Name = "AHTB";
+            this.AHTB.Size = new System.Drawing.Size(46, 20);
+            this.AHTB.TabIndex = 26;
+            this.AHTB.Text = "1.8";
+            this.AHTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.AHTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.AHTB_KeyPress);
             // 
-            // label6
+            // RMinS
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(15, 73);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(78, 13);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "AgentHeight = ";
+            this.RMinS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RMinS.ForeColor = System.Drawing.Color.Black;
+            this.RMinS.Location = new System.Drawing.Point(457, 23);
+            this.RMinS.MaxLength = 6;
+            this.RMinS.Name = "RMinS";
+            this.RMinS.Size = new System.Drawing.Size(46, 20);
+            this.RMinS.TabIndex = 39;
+            this.RMinS.Text = "8";
+            this.RMinS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label5
+            // ARTB
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(15, 47);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 13);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "CellHeight = ";
+            this.ARTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ARTB.ForeColor = System.Drawing.Color.Black;
+            this.ARTB.Location = new System.Drawing.Point(244, 49);
+            this.ARTB.MaxLength = 5;
+            this.ARTB.Name = "ARTB";
+            this.ARTB.Size = new System.Drawing.Size(46, 20);
+            this.ARTB.TabIndex = 27;
+            this.ARTB.Text = "0.7";
+            this.ARTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ARTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ARTB_KeyPress);
             // 
-            // label4
+            // label21
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(15, 21);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 13);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "CellSize = ";
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.Black;
+            this.label21.Location = new System.Drawing.Point(327, 102);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(116, 13);
+            this.label21.TabIndex = 38;
+            this.label21.Text = "Edge MaxError          = ";
             // 
-            // button4
+            // MCTB
             // 
-            this.button4.Location = new System.Drawing.Point(18, 124);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(145, 23);
-            this.button4.TabIndex = 16;
-            this.button4.Text = "Change NavMesh Settings";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.MCTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MCTB.ForeColor = System.Drawing.Color.Black;
+            this.MCTB.Location = new System.Drawing.Point(244, 75);
+            this.MCTB.MaxLength = 6;
+            this.MCTB.Name = "MCTB";
+            this.MCTB.Size = new System.Drawing.Size(46, 20);
+            this.MCTB.TabIndex = 28;
+            this.MCTB.Text = "0.5";
+            this.MCTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.MCTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.MCTB_KeyPress);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.Black;
+            this.label20.Location = new System.Drawing.Point(327, 78);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(115, 13);
+            this.label20.TabIndex = 37;
+            this.label20.Text = "Edge MaxLen           = ";
+            // 
+            // MSTB
+            // 
+            this.MSTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MSTB.ForeColor = System.Drawing.Color.Black;
+            this.MSTB.Location = new System.Drawing.Point(244, 101);
+            this.MSTB.MaxLength = 6;
+            this.MSTB.Name = "MSTB";
+            this.MSTB.Size = new System.Drawing.Size(46, 20);
+            this.MSTB.TabIndex = 29;
+            this.MSTB.Text = "46";
+            this.MSTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.MSTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.MSTB_KeyPress);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Black;
+            this.label19.Location = new System.Drawing.Point(327, 53);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(115, 13);
+            this.label19.TabIndex = 36;
+            this.label19.Text = "Region Merge Size   = ";
+            // 
+            // TSTB
+            // 
+            this.TSTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TSTB.ForeColor = System.Drawing.Color.Black;
+            this.TSTB.Location = new System.Drawing.Point(78, 75);
+            this.TSTB.MaxLength = 6;
+            this.TSTB.Name = "TSTB";
+            this.TSTB.Size = new System.Drawing.Size(46, 20);
+            this.TSTB.TabIndex = 30;
+            this.TSTB.Text = "64";
+            this.TSTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TSTB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TSTB_KeyPress);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Black;
+            this.label18.Location = new System.Drawing.Point(327, 28);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(114, 13);
+            this.label18.TabIndex = 35;
+            this.label18.Text = "Region MinSize        = ";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.ForeColor = System.Drawing.Color.Red;
+            this.label16.Location = new System.Drawing.Point(264, 235);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(504, 13);
+            this.label16.TabIndex = 34;
+            this.label16.Text = "<-- This will build and dump navmeshes for all obj files in the Map Collision obj" +
+    " folder... this will take hours!! ";
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(18, 225);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(240, 23);
+            this.button5.TabIndex = 33;
+            this.button5.Text = "Start dumping all zone.obj file navmeshes";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(285, 158);
+            this.label3.Location = new System.Drawing.Point(285, 201);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(288, 13);
             this.label3.TabIndex = 15;
@@ -610,7 +834,7 @@ namespace PathFinder
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(18, 153);
+            this.button3.Location = new System.Drawing.Point(18, 196);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(261, 23);
             this.button3.TabIndex = 0;
@@ -659,6 +883,8 @@ namespace PathFinder
             this.menuStrip2.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -768,30 +994,161 @@ namespace PathFinder
         /// The label2
         /// </summary>
         public System.Windows.Forms.Label label2;
+        /// <summary>
+        /// The tab page2
+        /// </summary>
         private System.Windows.Forms.TabPage tabPage2;
+        /// <summary>
+        /// The button3
+        /// </summary>
         private System.Windows.Forms.Button button3;
+        /// <summary>
+        /// The button4
+        /// </summary>
         private System.Windows.Forms.Button button4;
+        /// <summary>
+        /// The label3
+        /// </summary>
         public System.Windows.Forms.Label label3;
+        /// <summary>
+        /// The label6
+        /// </summary>
         private System.Windows.Forms.Label label6;
+        /// <summary>
+        /// The label5
+        /// </summary>
         private System.Windows.Forms.Label label5;
+        /// <summary>
+        /// The label4
+        /// </summary>
         private System.Windows.Forms.Label label4;
+        /// <summary>
+        /// The artb
+        /// </summary>
         private System.Windows.Forms.TextBox ARTB;
+        /// <summary>
+        /// The ahtb
+        /// </summary>
         private System.Windows.Forms.TextBox AHTB;
+        /// <summary>
+        /// The CHTB
+        /// </summary>
         private System.Windows.Forms.TextBox CHTB;
+        /// <summary>
+        /// The CSTB
+        /// </summary>
         private System.Windows.Forms.TextBox CSTB;
+        /// <summary>
+        /// The label11
+        /// </summary>
         private System.Windows.Forms.Label label11;
+        /// <summary>
+        /// The label10
+        /// </summary>
         private System.Windows.Forms.Label label10;
+        /// <summary>
+        /// The label8
+        /// </summary>
         private System.Windows.Forms.Label label8;
+        /// <summary>
+        /// The label7
+        /// </summary>
         private System.Windows.Forms.Label label7;
+        /// <summary>
+        /// The TSTB
+        /// </summary>
         private System.Windows.Forms.TextBox TSTB;
+        /// <summary>
+        /// The MSTB
+        /// </summary>
         private System.Windows.Forms.TextBox MSTB;
+        /// <summary>
+        /// The MCTB
+        /// </summary>
         private System.Windows.Forms.TextBox MCTB;
+        /// <summary>
+        /// The label12
+        /// </summary>
         public System.Windows.Forms.Label label12;
-        public System.Windows.Forms.Label label15;
+        /// <summary>
+        /// The label16
+        /// </summary>
         public System.Windows.Forms.Label label16;
+        /// <summary>
+        /// The button5
+        /// </summary>
         private System.Windows.Forms.Button button5;
+        /// <summary>
+        /// The label17
+        /// </summary>
         private System.Windows.Forms.Label label17;
+        /// <summary>
+        /// The dump meshes
+        /// </summary>
         private System.ComponentModel.BackgroundWorker DumpMeshes;
+        /// <summary>
+        /// The button6
+        /// </summary>
         private System.Windows.Forms.Button button6;
+        /// <summary>
+        /// The group box1
+        /// </summary>
+        private System.Windows.Forms.GroupBox groupBox1;
+        /// <summary>
+        /// The ds m
+        /// </summary>
+        private System.Windows.Forms.TextBox DsM;
+        /// <summary>
+        /// The label23
+        /// </summary>
+        private System.Windows.Forms.Label label23;
+        /// <summary>
+        /// The DSD
+        /// </summary>
+        private System.Windows.Forms.TextBox DSD;
+        /// <summary>
+        /// The label22
+        /// </summary>
+        private System.Windows.Forms.Label label22;
+        /// <summary>
+        /// The v pp
+        /// </summary>
+        private System.Windows.Forms.TextBox vPP;
+        /// <summary>
+        /// The label15
+        /// </summary>
+        private System.Windows.Forms.Label label15;
+        /// <summary>
+        /// The em e
+        /// </summary>
+        private System.Windows.Forms.TextBox EmE;
+        /// <summary>
+        /// The e maximum l
+        /// </summary>
+        private System.Windows.Forms.TextBox EMaxL;
+        /// <summary>
+        /// The RMS
+        /// </summary>
+        private System.Windows.Forms.TextBox RMS;
+        /// <summary>
+        /// The r minimum s
+        /// </summary>
+        private System.Windows.Forms.TextBox RMinS;
+        /// <summary>
+        /// The label21
+        /// </summary>
+        private System.Windows.Forms.Label label21;
+        /// <summary>
+        /// The label20
+        /// </summary>
+        private System.Windows.Forms.Label label20;
+        /// <summary>
+        /// The label19
+        /// </summary>
+        private System.Windows.Forms.Label label19;
+        /// <summary>
+        /// The label18
+        /// </summary>
+        private System.Windows.Forms.Label label18;
     }
 }

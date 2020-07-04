@@ -1,7 +1,9 @@
 ﻿// *********************************************************************** Assembly : PathFinder
-// Author : xenonsmurf Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020
+// Author : xenonsmurf Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020 Created :
+// Created : 03-16-2020 Created : 03-16-2020 Created : 03-16-2020 Created :
 //
-// Last Modified By : xenonsmurf Last Modified On : 03-23-2020 Last Modified On : 04-12-2020 ***********************************************************************
+// Last Modified By : xenonsmurf Last Modified On : 03-23-2020 Last Modified On : 04-12-2020 Last
+// Modified On : 07-04-2020 ***********************************************************************
 // <copyright file="ffxiProcess.cs" company="Xenonsmurf">
 //     Copyright © 2020
 // </copyright>

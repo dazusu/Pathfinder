@@ -1,13 +1,16 @@
 ﻿// *********************************************************************** Assembly : PathFinder
-// Author : xenonsmurf Created : 04-03-2020 Created : 04-03-2020 Created : 04-03-2020 Created : 04-03-2020
+// Author : xenonsmurf Created : 04-03-2020 Created : 04-03-2020 Created : 04-03-2020 Created :
+// Created : 04-03-2020 Created : 04-03-2020 Created : 04-03-2020 Created :
 //
-// Last Modified By : xenonsmurf Last Modified On : 04-04-2020 Last Modified On : 04-12-2020 ***********************************************************************
+// Last Modified By : xenonsmurf Last Modified On : 04-04-2020 Last Modified On : 04-12-2020 Last
+// Modified On : 07-04-2020 ***********************************************************************
 // <copyright file="FFXINAVTOOLS.cs" company="Xenonsmurf">
 //     Copyright © 2020
 // </copyright>
 // <summary>
 // </summary>
 // ***********************************************************************
+using System;
 using System.Collections.Generic;
 using System.Threading;
 
@@ -30,6 +33,19 @@ namespace PathFinder.Common
         public FFXINAV()
         {
             Waypoints = new List<position_t>();
+        }
+
+        /// <summary>
+        /// Determines whether this instance [can we see destination] the specified start.
+        /// </summary>
+        /// <param name="start">The start.</param>
+        /// <param name="end">The end.</param>
+        /// <returns>
+        /// <c>true</c> if this instance [can we see destination] the specified start; otherwise, <c>false</c>.
+        /// </returns>
+        public bool CanWeSeeDestination(position_t start, position_t end)
+        {
+            return CanSeeDestination(start, end);
         }
 
         /// <summary>
@@ -58,6 +74,10 @@ namespace PathFinder.Common
             load(file);
         }
 
+        /// <summary>
+        /// Loads the ob jfile.
+        /// </summary>
+        /// <param name="file">The file.</param>
         public void LoadOBJfile(string file)
         {
             Initialize(100);
@@ -65,14 +85,23 @@ namespace PathFinder.Common
             LoadOBJFile(file);
         }
 
+        /// <summary>
+        /// Gets or sets a value indicating whether [dumping mesh].
+        /// </summary>
+        /// <value><c>true</c> if [dumping mesh]; otherwise, <c>false</c>.</value>
         public bool DumpingMesh { get; set; } = false;
 
+        /// <summary>
+        /// Dumps the nav mesh.
+        /// </summary>
+        /// <param name="file">The file.</param>
         public void Dump_NavMesh(string file)
         {
             if (DumpingMesh == false)
             {
                 DumpingMesh = true;
                 LoadOBJFile(file);
+                Thread.Sleep(5000);
                 DumpNavMesh(file);
                 DumpingMesh = false;
             }
@@ -141,10 +170,29 @@ namespace PathFinder.Common
             }
         }
 
+        /// <summary>
+        /// Changes the nav mesh settings.
+        /// </summary>
+        /// <param name="CellSize">Size of the cell.</param>
+        /// <param name="CellHeight">Height of the cell.</param>
+        /// <param name="AgentHeight">Height of the agent.</param>
+        /// <param name="AgentRadius">The agent radius.</param>
+        /// <param name="MaxClimb">The maximum climb.</param>
+        /// <param name="MaxSlope">The maximum slope.</param>
+        /// <param name="TileSize">Size of the tile.</param>
+        /// <param name="RegionMinSize">Minimum size of the region.</param>
+        /// <param name="RegionMergeSize">Size of the region merge.</param>
+        /// <param name="EdgeMaxLen">Maximum length of the edge.</param>
+        /// <param name="EdgeError">The edge error.</param>
+        /// <param name="VertsPP">The verts pp.</param>
+        /// <param name="DetailSampDistance">The detail samp distance.</param>
+        /// <param name="DetailMaxError">The detail maximum error.</param>
         public void ChangeNavMeshSettings(double CellSize, double CellHeight, double AgentHeight, double AgentRadius, double MaxClimb,
-         double MaxSlope, double TileSize)
+         double MaxSlope, double TileSize, double RegionMinSize, double RegionMergeSize, double EdgeMaxLen, double EdgeError, double VertsPP,
+         double DetailSampDistance, double DetailMaxError)
         {
-            navMeshSettings(CellSize, CellHeight, AgentHeight, AgentRadius, MaxClimb, MaxSlope, TileSize);
+            navMeshSettings(CellSize, CellHeight, AgentHeight, AgentRadius, MaxClimb, MaxSlope, TileSize,
+                RegionMinSize, RegionMergeSize, EdgeMaxLen, EdgeError, VertsPP, DetailSampDistance, DetailMaxError);
         }
 
         /// <summary>
@@ -155,6 +203,40 @@ namespace PathFinder.Common
         public static float ToSingle(double value)
         {
             return (float)value;
+        }
+
+        /// <summary>
+        /// Distances to wall.
+        /// </summary>
+        /// <param name="start">The start.</param>
+        /// <returns>System.Double.</returns>
+        public double DistanceToWall(position_t start)
+        {
+            try
+            {
+                if (start.X != 0 && start.Z != 0)
+                {
+                    return GetDistanceToWall(start);
+                }
+                else
+                    return 0;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return 0;
+            }
+        }
+
+        /// <summary>
+        /// Getrotations the specified start.
+        /// </summary>
+        /// <param name="start">The start.</param>
+        /// <param name="end">The end.</param>
+        /// <returns>System.SByte.</returns>
+        public sbyte Getrotation(position_t start, position_t end)
+        {
+            return GetRotation(start, end);
         }
     }
 }

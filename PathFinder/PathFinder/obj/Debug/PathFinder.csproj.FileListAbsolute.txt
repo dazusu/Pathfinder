@@ -28,7 +28,6 @@ C:\Users\xenonsmurf\Desktop\Pathfinder\PathFinder\PathFinder\bin\Debug\System.Bu
 C:\Users\xenonsmurf\Desktop\Pathfinder\PathFinder\PathFinder\bin\Debug\System.Memory.xml
 C:\Users\xenonsmurf\Desktop\Pathfinder\PathFinder\PathFinder\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\xenonsmurf\Desktop\Pathfinder\PathFinder\PathFinder\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\xenonsmurf\Desktop\Pathfinder\PathFinder\PathFinder\obj\Debug\PathFinder.csprojAssemblyReference.cache
 C:\Users\xenonsmurf\Desktop\Pathfinder\PathFinder\PathFinder\obj\Debug\PathFinder.MainForm.resources
 C:\Users\xenonsmurf\Desktop\Pathfinder\PathFinder\PathFinder\obj\Debug\PathFinder.Properties.Resources.resources
 C:\Users\xenonsmurf\Desktop\Pathfinder\PathFinder\PathFinder\obj\Debug\PathFinder.ToonControl.resources
@@ -37,3 +36,4 @@ C:\Users\xenonsmurf\Desktop\Pathfinder\PathFinder\PathFinder\obj\Debug\PathFinde
 C:\Users\xenonsmurf\Desktop\Pathfinder\PathFinder\PathFinder\obj\Debug\PathFinder.csproj.CopyComplete
 C:\Users\xenonsmurf\Desktop\Pathfinder\PathFinder\PathFinder\obj\Debug\PathFinder.exe
 C:\Users\xenonsmurf\Desktop\Pathfinder\PathFinder\PathFinder\obj\Debug\PathFinder.pdb
+C:\Users\xenonsmurf\Desktop\Pathfinder\PathFinder\PathFinder\obj\Debug\PathFinder.csprojAssemblyReference.cache

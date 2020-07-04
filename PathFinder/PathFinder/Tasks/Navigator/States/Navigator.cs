@@ -1,9 +1,10 @@
 ﻿// *********************************************************************** Assembly : PathFinder
-// Author : xenonsmurf Created : 04-06-2020 Created : 04-06-2020
+// Author : xenonsmurf Created : 04-06-2020 Created : 04-06-2020 Created : 04-06-2020 Created :
+// 04-06-2020 Created : 04-06-2020 Created : 04-06-2020 Created : 04-06-2020 Created : 04-06-2020
 //
-// Last Modified By : xenonsmurf Last Modified On : 04-07-2020
+// Last Modified By : xenonsmurf Last Modified On : 04-07-2020 Last Modified On : 07-04-2020
 // *********************************************************************** Last Modified On :
-// 04-12-2020 ***********************************************************************
+// 07-04-2020 ***********************************************************************
 // <copyright file="Navigator.cs" company="Xenonsmurf">
 //     Copyright © 2020
 // </copyright>
@@ -109,7 +110,14 @@ namespace PathFinder.Tasks.Nav.States
             Log.AddDebugText(TC.rtbDebug, string.Format("Exiting {0} State", GetType().Name));
         }
 
+        /// <summary>
+        /// The old
+        /// </summary>
         private string Old;
+
+        /// <summary>
+        /// The new
+        /// </summary>
         private string New;
 
         /// <summary>
@@ -136,22 +144,28 @@ namespace PathFinder.Tasks.Nav.States
                             {
                                 Old = string.Format(@"Pathing to x {0}, z {1}",
                                  Point.X.ToString(), Point.Z.ToString());
-
-                                Character.Logger.AddDebugText(Character.Tc.rtbDebug, string.Format(@"Pathing to x {0}, z {1}, Distance {2}y",
-                                 Point.X.ToString(), Point.Z.ToString(), Distance.ToString()));
+                                var PlayerPosi = new position_t { X = Character.Api.Player.X, Y = Character.Api.Player.Y, Z = Character.Api.Player.Z, Moving = 0, Rotation = 0 };
+                                double Walldistance = Character.FFxiNAV.DistanceToWall(Point);
+                                Character.Logger.AddDebugText(Character.Tc.rtbDebug, string.Format(@"Pathing to x {0}, z {1}, Distance {2}y, Can We see next Point? = {3}, Point Distance to Mesh Edge {4}",
+                                Point.X.ToString(), Point.Z.ToString(), Distance.ToString(), Character.FFxiNAV.CanWeSeeDestination(PlayerPosi, Point), Walldistance.ToString()));
                             }
                         }
-                        if (Distance < 0.3)
+                        var PlayerPos = new position_t { X = Character.Api.Player.X, Y = Character.Api.Player.Y, Z = Character.Api.Player.Z, Moving = 0, Rotation = 0 };
+                        bool test = Character.FFxiNAV.CanWeSeeDestination(PlayerPos, Point);
+                        double WallDistance = Character.FFxiNAV.DistanceToWall(Point);
+                        if (Distance < 0.5 && Character.FFxiNAV.CanWeSeeDestination(PlayerPos, Point))
                         {
-                            Character.Logger.AddDebugText(Character.Tc.rtbDebug, string.Format(@"Here...Pathing to next point..."));
-                            // Character.Api.AutoFollow.IsAutoFollowing = false;
-                            // Character.Api.AutoFollow.SetAutoFollowCoords(0, 0, 0);
+                            Character.Logger.AddDebugText(Character.Tc.rtbDebug, string.Format(@"Here..Can we see next point  = {0}, Point Distance to Mesh Edge {1}", test.ToString(), WallDistance.ToString()));
+
+                            Character.Api.AutoFollow.IsAutoFollowing = false;
                             i++;
                         }
                     }
                 }
                 else
-                    Exit();
+
+                    Character.Api.AutoFollow.IsAutoFollowing = false;
+                Exit();
             }
             catch (Exception ex)
             {

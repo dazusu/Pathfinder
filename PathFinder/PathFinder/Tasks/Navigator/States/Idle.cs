@@ -1,7 +1,9 @@
 ﻿// *********************************************************************** Assembly : PathFinder
-// Author : xenonsmurf Created : 04-03-2020 Created : 04-03-2020 Created : 04-03-2020 Created : 04-03-2020
+// Author : xenonsmurf Created : 04-03-2020 Created : 04-03-2020 Created : 04-03-2020 Created :
+// Created : 04-03-2020 Created : 04-03-2020 Created : 04-03-2020 Created :
 //
-// Last Modified By : xenonsmurf Last Modified On : 04-04-2020 Last Modified On : 04-12-2020 ***********************************************************************
+// Last Modified By : xenonsmurf Last Modified On : 04-04-2020 Last Modified On : 04-12-2020 Last
+// Modified On : 07-04-2020 ***********************************************************************
 // <copyright file="Idle.cs" company="Xenonsmurf">
 //     Copyright © 2020
 // </copyright>
@@ -82,8 +84,16 @@ namespace PathFinder.Tasks.Nav.States
             WriteTextSafe("Start");
         }
 
+        /// <summary>
+        /// Delegate SafeCallDelegate
+        /// </summary>
+        /// <param name="text">The text.</param>
         private delegate void SafeCallDelegate(string text);
 
+        /// <summary>
+        /// Writes the text safe.
+        /// </summary>
+        /// <param name="text">The text.</param>
         private void WriteTextSafe(string text)
         {
             if (Character.Tc.RunBtn.InvokeRequired)
