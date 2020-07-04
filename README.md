@@ -1,7 +1,8 @@
 ### Pathfinder
 This is a test app for testing Navmeshes for FFXI, you can also dump zone collision data to obj and build the navmeshes for zones.
 
-Pathfinder will Download the Navmeshes i have uploaded to Github.
+Pathfinder will ask you to Download the Navmeshes i have uploaded to Github.
+
 it will do this when you first start the app, it will not do it if you already have the navmeshes in "dumped navmeshes" folder.
 
 Please run pathfinder as Admin and make sure you are fully logged into FFXI.
