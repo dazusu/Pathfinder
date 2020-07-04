@@ -59,7 +59,7 @@ Development has slowed, and mostly happens on the my days off.
 
 
 #### Requirements
-* Ashita
+* Ashita or Windower
 * [Microsoft .NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48)
 * Visual C++ Redistributable Packages for Visual Studio 2013  
 * Visual C++ Redistributable Packages for Visual Studio 2015  
