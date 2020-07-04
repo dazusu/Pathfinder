@@ -22,6 +22,42 @@ Development has slowed, and mostly happens on the my days off.
 * Build navmeshes using FFXINAV.dll
 * Test Navmeshes
 
+* CanSeeDestination 
+* Unload
+* Initialize //pathsize doesn't matter
+* Load
+* LoadOBJFile
+* DumpNavMesh
+* GetLogMessage
+* FindPath  
+* GetDistanceToWall //this is distance to navmesh edge
+* GetRotation 
+* IsNavMeshEnabled
+* PathPoints
+* NavMeshSettings //Lets you change the NavMesh settings before building a new mesh
+* GetWaypoints    //returns the waypoints in the path 
+
+### navmesh settings all meshes are dumped with.
+
+
+    float m_tileSize = 64;         <<<< this can be changed for small zones.
+	float m_cellSize = 0.15f;
+	float m_cellHeight = 0.075f;
+	float m_agentHeight = 1.8f;    
+	float m_agentRadius = 0.7f;     <<<< if you make this too big it will break the mesh. 0.7f has been tested on most zones.
+	float m_agentMaxClimb = 0.5f;   <<<< this might need changing for some zones. max climb changes from 0.3f to 0.5f, trial and error
+	float m_agentMaxSlope = 46.0f;
+	float m_regionMinSize = 8;
+	float m_regionMergeSize = 20;
+	float m_edgeMaxLen = 12.0f;
+	float m_edgeMaxError = 1.3f;
+	float m_vertsPerPoly = 6.0f;
+	float m_detailSampleDist = 6.0f;
+	float m_detailSampleMaxError = 1.0f;
+	
+	
+
+
 #### Requirements
 * Ashita
 * [Microsoft .NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48)
