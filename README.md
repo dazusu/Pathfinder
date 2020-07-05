@@ -42,8 +42,8 @@ Development has slowed, and mostly happens on the my days off.
 
 
     float m_tileSize = 64;         <<<< this can be changed for small zones.
-	float m_cellSize = 0.15f;
-	float m_cellHeight = 0.075f;
+	float m_cellSize = 0.20f;
+	float m_cellHeight = 0.010f;
 	float m_agentHeight = 1.8f;    
 	float m_agentRadius = 0.7f;     <<<< if you make this too big it will break the mesh. 0.7f has been tested on most zones.
 	float m_agentMaxClimb = 0.5f;   <<<< this might need changing for some zones. max climb changes from 0.3f to 0.5f, trial and error
